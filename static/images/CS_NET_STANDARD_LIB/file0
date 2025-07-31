@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="850" height="540" viewBox="0 0 850 540">
+    <defs>
+        <style>
+            .bold{
+                font-weight:700;
+            }
+
+            .cls-1, .cls-5 {
+                fill: #eeeef2;
+            }
+
+            .cls-1 {
+                stroke: #cacace;
+            }
+
+            .cls-1, .cls-10, .cls-3, .cls-31, .cls-32, .cls-33, .cls-36, .cls-38 {
+                stroke-linejoin: round;
+                stroke-width: 1px;
+            }
+
+            .cls-2, .cls-30 {
+                fill: #007acc;
+            }
+
+            .cls-10, .cls-11, .cls-12, .cls-13, .cls-2, .cls-22, .cls-26, .cls-3, .cls-31, .cls-32, .cls-33, .cls-35, .cls-36, .cls-37, .cls-38, .cls-4, .cls-5 {
+                fill-rule: evenodd;
+            }
+
+            .cls-19, .cls-21, .cls-22, .cls-25, .cls-3, .cls-31, .cls-32, .cls-9 {
+                fill: #fff;
+            }
+
+            .cls-10, .cls-3, .cls-38 {
+                stroke: #d1d2de;
+            }
+
+            .cls-36, .cls-4 {
+                fill: #68217a;
+            }
+
+            .cls-6, .cls-7, .cls-8, .cls-9 {
+                font-size: 20px;
+            }
+
+            .cls-7 {
+                fill: #4d4a55;
+            }
+
+            .cls-17, .cls-19, .cls-24, .cls-28, .cls-29, .cls-30, .cls-40, .cls-41, .cls-7, .cls-8 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .cls-35, .cls-8 {
+                fill: #85818e;
+            }
+
+            .cls-9 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .cls-10, .cls-38 {
+                fill: #f6f6f6;
+            }
+
+            .cls-11 {
+                fill: #39f;
+            }
+
+            .cls-12, .cls-28, .cls-33, .cls-40 {
+                fill: #cdcdd1;
+            }
+
+            .cls-13 {
+                fill: #dbb377;
+            }
+
+            .cls-14, .cls-15, .cls-34 {
+                font-size: 40px;
+            }
+
+            .cls-15 {
+                fill: #489344;
+            }
+
+            .cls-15, .cls-21, .cls-34 {
+                text-anchor: middle;
+            }
+
+            .cls-15, .cls-34 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .cls-16, .cls-17, .cls-19, .cls-40, .cls-41 {
+                font-size: 32.869px;
+            }
+
+            .cls-17, .cls-26, .cls-29, .cls-34 {
+                fill: #404040;
+            }
+
+            .cls-18, .cls-29, .cls-30 {
+                font-size: 26.893px;
+            }
+
+            .cls-20, .cls-21 {
+                font-size: 38.845px;
+            }
+
+            .cls-21 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .cls-23, .cls-24 {
+                font-size: 23px;
+            }
+
+            .cls-24 {
+                fill: #bebdbd;
+            }
+
+            .cls-27, .cls-28 {
+                font-size: 35.857px;
+            }
+
+            .cls-31 {
+                stroke: #489344;
+            }
+
+            .cls-32 {
+                stroke: #cdcdd1;
+            }
+
+            .cls-33, .cls-36 {
+                stroke: #f5f5f5;
+            }
+
+            .cls-37, .cls-41 {
+                fill: #cacace;
+            }
+
+            .cls-38 {
+                filter: url(#drop-shadow-1);
+            }
+
+            .cls-39 {
+                fill: #c9def5;
+            }
+        </style>
+        <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+            <feOffset dx="2.487" dy="1.678" in="SourceAlpha" />
+            <feGaussianBlur stdDeviation="2" result="dropBlur" />
+            <feFlood flood-opacity="0.27" />
+            <feComposite operator="in" in2="dropBlur" result="dropShadowComp" />
+            <feComposite in="SourceGraphic" result="shadowed" />
+        </filter>
+    </defs>
+    <rect width="850" height="540" class="cls-1" />
+    <path d="M10.006,508.000 L840.494,508.000 L840.494,529.000 L10.006,529.000 L10.006,508.000 Z" class="cls-2" />
+    <path d="M668.893,8.500 L838.493,8.500 L838.493,27.000 L668.893,27.000 L668.893,8.500 Z" class="cls-3" />
+    <path d="M39.523,7.433 L39.523,26.567 L34.717,28.500 L24.266,18.431 L17.883,23.252 L16.510,22.549 L16.510,11.401 L17.883,10.723 L24.291,15.544 L34.692,5.500 L39.523,7.433 Z" class="cls-4" />
+    <path d="M33.929,12.556 L33.929,21.394 L28.029,17.000 L33.929,12.556 Z" class="cls-5" />
+    <path d="M18.544,14.389 L18.544,19.662 L21.519,17.025 L18.544,14.389 Z" class="cls-5" />
+    <text transform="translate(52 20) scale(0.5 0.5)" class="cls-6"><tspan class="cls-7">FdxApi - Microsoft Visual Studio</tspan></text>
+    <text transform="translate(678 21) scale(0.5 0.5)" class="cls-6"><tspan class="cls-8">Quick Launch (Ctrl + Q)</tspan></text>
+    <text transform="translate(16 521) scale(0.5 0.5)" class="cls-6"><tspan class="cls-9">Ready</tspan></text>
+    <path d="M596.851,79.500 L839.994,79.500 L839.994,464.000 L682.401,464.000 L682.401,484.000 L596.851,484.000 L596.851,79.500 Z" class="cls-10" />
+    <path d="M596.851,79.500 L839.994,79.500 L839.994,103.000 L596.851,103.000 L596.851,79.500 Z" class="cls-2" />
+    <path d="M596.851,144.500 L839.994,144.500 L839.994,166.000 L596.851,166.000 L596.851,144.500 Z" class="cls-11" />
+    <path d="M596.851,127.000 L839.994,127.000 L839.994,145.500 L596.851,145.500 L596.851,127.000 Z" class="cls-3" />
+    <path d="M625.153,194.591 L618.654,198.341 L618.654,190.841 L625.153,194.591 Z" class="cls-12" />
+    <path d="M625.153,214.591 L618.654,218.341 L618.654,210.841 L625.153,214.591 Z" class="cls-12" />
+    <path d="M625.153,234.091 L618.654,237.841 L618.654,230.341 L625.153,234.091 Z" class="cls-12" />
+    <path d="M625.153,254.091 L618.654,257.841 L618.654,250.341 L625.153,254.091 Z" class="cls-12" />
+    <path d="M625.153,274.091 L618.654,277.841 L618.654,270.341 L625.153,274.091 Z" class="cls-12" />
+    <path d="M625.153,293.591 L618.654,297.341 L618.654,289.841 L625.153,293.591 Z" class="cls-12" />
+    <path d="M625.153,313.591 L618.654,317.341 L618.654,309.841 L625.153,313.591 Z" class="cls-12" />
+    <path d="M625.153,353.091 L618.654,356.841 L618.654,349.341 L625.153,353.091 Z" class="cls-12" />
+    <path d="M634.342,237.500 L643.410,237.500 C643.669,237.500 643.879,237.285 643.879,237.020 L643.879,236.380 L643.879,235.580 L643.879,234.940 L643.879,234.140 L643.879,233.500 L643.879,231.900 L633.873,231.900 L633.873,233.500 L633.873,234.140 L633.873,234.940 L633.873,235.580 L633.873,236.380 L633.873,237.020 C633.873,237.285 634.083,237.500 634.342,237.500 ZM643.879,230.940 L643.879,230.620 L643.879,229.980 C643.879,229.715 643.669,229.500 643.410,229.500 L642.784,229.500 L642.472,229.500 L642.003,229.500 L641.065,229.500 L640.129,230.460 L634.342,230.460 C634.083,230.460 633.873,230.675 633.873,230.940 L633.873,231.420 L643.879,231.420 L643.879,230.940 Z" class="cls-13" />
+    <path d="M634.342,257.500 L643.410,257.500 C643.669,257.500 643.879,257.285 643.879,257.020 L643.879,256.380 L643.879,255.580 L643.879,254.940 L643.879,254.140 L643.879,253.500 L643.879,251.900 L633.873,251.900 L633.873,253.500 L633.873,254.140 L633.873,254.940 L633.873,255.580 L633.873,256.380 L633.873,257.020 C633.873,257.285 634.083,257.500 634.342,257.500 ZM643.879,250.940 L643.879,250.620 L643.879,249.980 C643.879,249.715 643.669,249.500 643.410,249.500 L642.784,249.500 L642.472,249.500 L642.003,249.500 L641.065,249.500 L640.129,250.460 L634.342,250.460 C634.083,250.460 633.873,250.675 633.873,250.940 L633.873,251.420 L643.879,251.420 L643.879,250.940 Z" class="cls-13" />
+    <text transform="translate(639 277) scale(0.2 0.2)" class="cls-14"><tspan x="0" class="cls-15">C#</tspan></text>
+    <text transform="translate(639 296) scale(0.2 0.2)" class="cls-14"><tspan x="0" class="cls-15">C#</tspan></text>
+    <text transform="translate(639 316) scale(0.2 0.2)" class="cls-14"><tspan x="0" class="cls-15">C#</tspan></text>
+    <text transform="translate(639 356) scale(0.2 0.2)" class="cls-14"><tspan x="0" class="cls-15">C#</tspan></text>
+    <text transform="translate(641 177) scale(0.33 0.33)" class="cls-16"><tspan class="cls-17 bold">FdxApi.Standard (Portable)</tspan></text>
+    <text transform="translate(626 158) scale(0.33 0.33)" class="cls-18"><tspan class="cls-19">Solution 'FdxApi' (1 project) </tspan></text>
+    <text transform="translate(660 95) scale(0.33 0.33)" class="cls-20"><tspan x="0" class="cls-21">Solution Explorer</tspan></text>
+    <path d="M831.019,88.530 L828.048,91.500 L831.019,94.470 L831.019,94.470 C831.155,94.605 831.239,94.793 831.239,95.000 C831.239,95.414 830.903,95.750 830.488,95.750 C830.281,95.750 830.094,95.666 829.958,95.530 L829.958,95.530 L826.986,92.561 L824.015,95.530 L824.015,95.530 C823.879,95.666 823.692,95.750 823.484,95.750 C823.070,95.750 822.734,95.414 822.734,95.000 C822.734,94.793 822.818,94.605 822.954,94.470 L822.954,94.470 L825.925,91.500 L822.954,88.530 L822.954,88.530 C822.818,88.395 822.734,88.207 822.734,88.000 C822.734,87.586 823.070,87.250 823.484,87.250 C823.692,87.250 823.879,87.334 824.015,87.470 L824.015,87.470 L826.986,90.439 L829.958,87.470 L829.958,87.470 C830.094,87.334 830.281,87.250 830.488,87.250 C830.903,87.250 831.239,87.586 831.239,88.000 C831.239,88.207 831.155,88.395 831.019,88.530 L831.019,88.530 Z" class="cls-22" />
+    <text transform="translate(193 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Build</tspan></text>
+    <rect x="607" y="150" width="13" height="10" class="cls-25" />
+    <path d="M619.278,160.000 L607.944,160.000 C607.620,160.000 607.357,159.748 607.357,159.438 L607.357,150.063 C607.357,149.752 607.620,149.500 607.944,149.500 L619.278,149.500 C619.602,149.500 619.865,149.752 619.865,150.063 L619.865,159.438 C619.865,159.748 619.602,160.000 619.278,160.000 ZM619.278,151.750 L618.692,151.750 L608.530,151.750 L607.944,151.750 L607.944,159.438 L619.278,159.438 L619.278,151.750 Z" class="cls-26" />
+    <text transform="translate(653 199) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">Properties</tspan></text>
+    <text transform="translate(653 219) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">References</tspan></text>
+    <text transform="translate(653 237) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">Controllers</tspan></text>
+    <text transform="translate(653 256) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">Http</tspan></text>
+    <text transform="translate(654 277) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">APIException.cs</tspan></text>
+    <text transform="translate(654 296) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">APIHelper.cs</tspan></text>
+    <text transform="translate(653 316) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">Configuration.cs</tspan></text>
+    <text transform="translate(653 337) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">Packages.config</tspan></text>
+    <text transform="translate(654 356) scale(0.33 0.33)" class="cls-27"><tspan class="cls-28">FdxApiClient.cs</tspan></text>
+    <text transform="translate(602 476) scale(0.33 0.33)" class="cls-18"><tspan class="cls-29">Solution Explorer</tspan></text>
+    <text transform="translate(688 476) scale(0.33 0.33)" class="cls-18"><tspan class="cls-30">Team Explorer</tspan></text>
+    <path d="M621.366,167.000 L635.874,167.000 L635.874,181.500 L621.366,181.500 L621.366,167.000 Z" class="cls-22" />
+    <path d="M622.366,168.000 L634.873,168.000 L634.873,180.500 L622.366,180.500 L622.366,168.000 Z" class="cls-31" />
+    <path d="M639.454,212.000 L644.379,212.000 L644.379,218.000 L639.454,218.000 L639.454,212.000 Z" class="cls-12" />
+    <path d="M632.872,212.859 L636.155,212.859 L636.155,217.141 L632.872,217.141 L632.872,212.859 Z" class="cls-12" />
+    <path d="M636.984,214.578 L638.626,214.578 L638.626,215.422 L636.984,215.422 L636.984,214.578 Z" class="cls-26" />
+    <path d="M642.833,338.500 L635.919,338.500 C635.618,338.500 635.374,338.257 635.374,337.957 L635.374,328.554 C635.374,328.254 635.618,328.011 635.919,328.011 L638.830,328.011 L638.830,329.998 L638.830,331.086 C638.830,331.686 639.319,332.173 639.922,332.173 L641.013,332.173 L643.378,332.173 L643.378,336.511 L643.378,337.957 C643.378,338.257 643.134,338.500 642.833,338.500 ZM639.922,331.630 C639.620,331.630 639.376,331.386 639.376,331.086 L639.376,329.998 L639.376,328.005 L643.378,331.630 L641.013,331.630 L639.922,331.630 Z" class="cls-32" />
+    <path d="M639.376,328.000 L643.378,332.000 L638.876,332.000 L638.876,328.000 L639.376,328.000 Z" class="cls-12" />
+    <path d="M643.798,193.054 C643.749,192.861 643.507,192.793 643.366,192.934 L642.216,194.079 C641.961,194.333 641.547,194.333 641.292,194.079 L640.765,193.554 C640.509,193.300 640.509,192.888 640.765,192.633 L641.900,191.503 C642.043,191.361 641.973,191.117 641.777,191.072 C641.508,191.009 641.224,190.986 640.931,191.009 C639.673,191.109 638.514,192.285 638.436,193.540 C638.406,194.016 638.502,194.466 638.691,194.864 L634.672,198.303 C634.492,198.457 634.384,198.680 634.373,198.917 C634.363,199.154 634.452,199.384 634.619,199.553 L635.300,200.244 C635.469,200.415 635.702,200.508 635.942,200.500 C636.183,200.492 636.409,200.385 636.566,200.204 L640.047,196.188 C640.435,196.361 640.870,196.449 641.329,196.420 C642.598,196.342 643.779,195.179 643.871,193.916 C643.893,193.617 643.866,193.327 643.798,193.054 Z" class="cls-12" />
+    <path d="M636.426,331.534 C636.298,331.456 636.134,331.550 636.134,331.702 L636.132,332.940 C636.131,333.214 635.912,333.437 635.643,333.438 L635.085,333.439 C634.816,333.439 634.598,333.217 634.598,332.942 L634.600,331.720 C634.601,331.567 634.435,331.473 634.307,331.554 C634.131,331.665 633.969,331.806 633.826,331.976 C633.213,332.709 633.222,333.968 633.845,334.687 C634.082,334.960 634.371,335.151 634.682,335.264 L634.376,339.286 C634.362,339.467 634.423,339.645 634.543,339.778 C634.663,339.912 634.832,339.988 635.010,339.989 L635.736,339.995 C635.916,339.996 636.089,339.921 636.212,339.787 C636.335,339.653 636.398,339.473 636.385,339.290 L636.101,335.247 C636.398,335.131 636.675,334.944 636.903,334.681 C637.533,333.954 637.542,332.690 636.922,331.959 C636.775,331.786 636.607,331.644 636.426,331.534 Z" class="cls-33" />
+    <path d="M614.361,170.500 L607.357,177.500 L614.361,177.500 L614.361,170.500 Z" class="cls-22" />
+    <text transform="translate(629 177) scale(0.2 0.2)" class="cls-14"><tspan x="0" class="cls-34">C#</tspan></text>
+    <path d="M820.785,21.740 C820.598,21.926 820.483,22.184 820.483,22.469 C820.483,23.038 820.945,23.500 821.514,23.500 C821.799,23.500 822.057,23.385 822.244,23.198 L822.244,23.198 L825.268,20.176 C825.882,20.538 826.596,20.750 827.362,20.750 C829.641,20.750 831.489,18.903 831.489,16.625 C831.489,14.347 829.641,12.500 827.362,12.500 C825.082,12.500 823.234,14.347 823.234,16.625 C823.234,17.390 823.446,18.103 823.809,18.717 L820.785,21.740 L820.785,21.740 ZM827.362,13.531 C829.071,13.531 830.457,14.916 830.457,16.625 C830.457,18.334 829.071,19.719 827.362,19.719 C825.652,19.719 824.266,18.334 824.266,16.625 C824.266,14.916 825.652,13.531 827.362,13.531 Z" class="cls-35" />
+    <path d="M822.286,140.240 C822.099,140.426 821.983,140.684 821.983,140.969 C821.983,141.538 822.445,142.000 823.015,142.000 C823.300,142.000 823.558,141.885 823.745,141.698 L823.745,141.698 L826.769,138.676 C827.383,139.038 828.097,139.250 828.862,139.250 C831.142,139.250 832.990,137.403 832.990,135.125 C832.990,132.847 831.142,131.000 828.862,131.000 C826.583,131.000 824.735,132.847 824.735,135.125 C824.735,135.890 824.947,136.603 825.310,137.217 L822.286,140.240 L822.286,140.240 ZM828.862,132.031 C830.572,132.031 831.958,133.416 831.958,135.125 C831.958,136.834 830.572,138.219 828.862,138.219 C827.153,138.219 825.767,136.834 825.767,135.125 C825.767,133.416 827.153,132.031 828.862,132.031 Z" class="cls-35" />
+    <path d="M614.361,155.130 L614.361,161.370 L612.794,162.000 L609.386,158.717 L607.305,160.289 L606.857,160.059 L606.857,156.424 L607.305,156.203 L609.394,157.775 L612.786,154.500 L614.361,155.130 Z" class="cls-36" />
+    <path d="M612.537,156.801 L612.537,159.683 L610.613,158.250 L612.537,156.801 Z" class="cls-5" />
+    <path d="M607.520,157.398 L607.520,159.118 L608.490,158.258 L607.520,157.398 Z" class="cls-5" />
+    <text transform="translate(607 140) scale(0.5 0.5)" class="cls-6"><tspan class="cls-8">Search Solution Explorer (Ctrl + ;)</tspan></text>
+    <path d="M813.478,38.500 L838.994,38.500 L838.994,64.000 L813.478,64.000 L813.478,38.500 Z" class="cls-37" />
+    <path d="M9.005,99.500 L15.009,99.500 L15.009,145.500 L9.005,145.500 L9.005,99.500 Z" class="cls-37" />
+    <path d="M9.005,165.500 L15.009,165.500 L15.009,222.000 L9.005,222.000 L9.005,165.500 Z" class="cls-37" />
+    <path d="M9.005,237.000 L15.009,237.000 L15.009,293.500 L9.005,293.500 L9.005,237.000 Z" class="cls-37" />
+    <text transform="translate(26 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">File</tspan></text>
+    <text transform="translate(406 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Architecture</tspan></text>
+    <text transform="translate(489 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Test </tspan></text>
+    <text transform="translate(656 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Help</tspan></text>
+    <text transform="translate(595 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Window</tspan></text>
+    <text transform="translate(538 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Analyze</tspan></text>
+    <text transform="translate(356 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Tools</tspan></text>
+    <text transform="translate(304 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Team</tspan></text>
+    <text transform="translate(61 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Edit</tspan></text>
+    <text transform="translate(96 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">View</tspan></text>
+    <text transform="translate(137 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Project </tspan></text>
+    <text transform="translate(246 55) scale(0.5 0.5)" class="cls-23"><tspan class="cls-24">Debug</tspan></text>
+    <g style="fill: #f6f6f6; filter: url(#drop-shadow-1)">
+        <path d="M609.824,152.803 L609.824,517.000 L282.610,517.000 L282.610,152.933 L609.824,152.803 Z" id="path-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-38" />
+    </g>
+    <use xlink:href="#path-1" style="stroke: #d1d2de; filter: none; fill: none" />
+    <rect x="284" y="370" width="325" height="20" class="cls-39" />
+    <text transform="translate(300 173) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Build Solution</tspan></text>
+    <text transform="translate(539 173) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">F6</tspan></text>
+    <text transform="translate(300 192) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Rebuild Solution</tspan></text>
+    <text transform="translate(300 211) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Clean Solution</tspan></text>
+    <text transform="translate(300 229) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Run Code Analysis on Solution</tspan></text>
+    <text transform="translate(540 229) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Alt+F11</tspan></text>
+    <text transform="translate(300 248) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Batch Build...</tspan></text>
+    <text transform="translate(300 267) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Configuration Manager...</tspan></text>
+    <text transform="translate(300 286) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Manage NuGet Packages for Solution...</tspan></text>
+    <text transform="translate(300 305) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Restore NuGet Packages</tspan></text>
+    <text transform="translate(300 326) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Recompile All Files in Solution</tspan></text>
+    <text transform="translate(300 345) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">New Solution Explorer View</tspan></text>
+    <text transform="translate(539 326) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Shift+Alt+Y</tspan></text>
+    <text transform="translate(300 363) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Show on Code Map</tspan></text>
+    <text transform="translate(300 384) scale(0.33 0.33)" class="cls-16"><tspan class="cls-17">Add</tspan></text>
+    <text transform="translate(300 405) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Set StartUp Projects...</tspan></text>
+    <text transform="translate(300 422) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Add Solution to Source Control...</tspan></text>
+    <text transform="translate(300 439) scale(0.33 0.33)" class="cls-16"><tspan class="cls-41">Compare with Unmodified...</tspan></text>
+    <text transform="translate(300 458) scale(0.33 0.33)" class="cls-16"><tspan class="cls-41">Paste</tspan></text>
+    <text transform="translate(300 474) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Rename</tspan></text>
+    <text transform="translate(300 491) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Open Folder in File Explorer</tspan></text>
+    <text transform="translate(300 508) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Properties</tspan></text>
+    <path d="M606.006,370.000 L606.006,370.500 L299.615,370.500 L299.615,370.000 L606.006,370.000 Z" class="cls-37" />
+    <path d="M606.006,390.000 L606.006,390.500 L299.615,390.500 L299.615,390.000 L606.006,390.000 Z" class="cls-37" />
+    <path d="M606.006,313.000 L606.006,313.500 L299.615,313.500 L299.615,313.000 L606.006,313.000 Z" class="cls-37" />
+    <path d="M606.006,332.500 L606.006,333.000 L299.615,333.000 L299.615,332.500 L606.006,332.500 Z" class="cls-37" />
+    <path d="M606.006,445.500 L606.006,446.000 L299.615,446.000 L299.615,445.500 L606.006,445.500 Z" class="cls-37" />
+    <path d="M606.006,410.500 L606.006,411.000 L299.615,411.000 L299.615,410.500 L606.006,410.500 Z" class="cls-37" />
+    <path d="M590.153,380.091 L583.654,383.841 L583.654,376.341 L590.153,380.091 Z" class="cls-11" />
+    <g style="fill: #f6f6f6; filter: url(#drop-shadow-1)">
+        <path d="M289.824,371.803 L289.824,512.000 L104.610,512.000 L104.610,371.933 L289.824,371.803 Z" id="path-2" style="stroke: inherit; filter: none; fill: inherit" class="cls-38" />
+    </g>
+    <use xlink:href="#path-2" style="stroke: #d1d2de; filter: none; fill: none" />
+    <rect x="108" y="375" width="179" height="20" class="cls-39" />
+    <text transform="translate(115 389) scale(0.33 0.33)" class="cls-16"><tspan class="cls-17">New Project...</tspan></text>
+    <text transform="translate(115 408) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Existing Project...</tspan></text>
+    <text transform="translate(115 427) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">New Web Site...</tspan></text>
+    <text transform="translate(115 445) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Existing Web Site...</tspan></text>
+    <text transform="translate(115 464) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">New Item...</tspan></text>
+    <text transform="translate(115 482) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">Existing Item...</tspan></text>
+    <text transform="translate(115 499) scale(0.33 0.33)" class="cls-16"><tspan class="cls-40">New Solution Folder</tspan></text>
+</svg>
