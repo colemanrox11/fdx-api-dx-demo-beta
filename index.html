@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDX Developer Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            background: #1a2233;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+        
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .main-content {
+            height: calc(100vh - 70px);
+            width: 100%;
+        }
+        
+        #apimatic-widget {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="static/images/logo.png" alt="FDX Logo" onerror="this.style.display='none'">
+            <span class="logo-text">FDX Developer Portal</span>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <div id="apimatic-widget"></div>
+    </main>
+
+    <!-- APIMatic Portal Scripts -->
+    <script defer src="https://dxjs.apimatic.io/v7/static/js/portal.v7.js"></script>
+    <script defer src="static/js/portal.js"></script>
+    <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            APIMaticDevPortal.ready(({ registerWorkflow }) => {
+                registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);
+            });
+        });
+    </script>
+    <script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            APIMaticDevPortal.ready(({ registerWorkflow }) => {
+                registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough);
+            });
+        });
+    </script>
+</body>
+</html> 
