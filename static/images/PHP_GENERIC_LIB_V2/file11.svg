@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1027" height="699" viewBox="0 0 1027 699">
+    <defs>
+        <style>
+            .cls-1, .cls-10, .cls-5 {
+                fill: #e8e8e8;
+            }
+
+            .cls-1 {
+                stroke: #cacace;
+            }
+
+            .cls-1, .cls-10, .cls-12, .cls-13, .cls-14, .cls-24, .cls-4 {
+                stroke-linejoin: round;
+                stroke-width: 1px;
+            }
+
+            .cls-2 {
+                fill: #e6ebf0;
+            }
+
+            .cls-21, .cls-3, .cls-9 {
+                fill: #2d82ed;
+            }
+
+            .cls-16, .cls-24, .cls-26, .cls-4, .cls-7 {
+                fill: #fff;
+            }
+
+            .cls-4 {
+                stroke: silver;
+            }
+
+            .cls-6 {
+                fill: silver;
+            }
+
+            .cls-18, .cls-22, .cls-24, .cls-25, .cls-26, .cls-29, .cls-30, .cls-6, .cls-8, .cls-9 {
+                fill-rule: evenodd;
+            }
+
+            .cls-8 {
+                fill: #3a3935;
+            }
+
+            .cls-10 {
+                stroke: #2d82ed;
+            }
+
+            .cls-11 {
+                fill: #9e9e9e;
+            }
+
+            .cls-12 {
+                fill: #447cd6;
+            }
+
+            .cls-12, .cls-13 {
+                stroke: #8b8b8b;
+            }
+
+            .cls-13 {
+                fill: #d1d1d1;
+            }
+
+            .cls-14 {
+                fill: #e7e7e7;
+                stroke: #bebebe;
+            }
+
+            .cls-15, .cls-16, .cls-17, .cls-19, .cls-20, .cls-21, .cls-23 {
+                font-size: 13.333px;
+            }
+
+            .cls-16, .cls-17, .cls-19, .cls-20, .cls-21, .cls-23, .cls-28 {
+                font-family: "Myriad Pro";
+            }
+
+            .cls-17 {
+                fill: #1c1c1c;
+            }
+
+            .cls-18 {
+                fill: #cacace;
+            }
+
+            .cls-19 {
+                fill: #b6b6b6;
+            }
+
+            .cls-20 {
+                fill: #b3b3b3;
+            }
+
+            .cls-22 {
+                fill: #969696;
+            }
+
+            .cls-23 {
+                fill: #c2c2c2;
+            }
+
+            .cls-24 {
+                stroke: #383838;
+            }
+
+            .cls-25 {
+                fill: #adadad;
+            }
+
+            .cls-27, .cls-28 {
+                font-size: 16px;
+            }
+
+            .cls-28 {
+                fill: #101010;
+            }
+
+            .cls-29 {
+                fill: #a3a3a3;
+            }
+
+            .cls-30 {
+                fill: #787878;
+            }
+        </style>
+    </defs>
+    <rect width="1027" height="699" class="cls-1" />
+    <rect x="1" y="30" width="222" height="609" class="cls-2" />
+    <rect x="1" y="287" width="222" height="26" class="cls-3" />
+    <rect x="235" y="212" width="778" height="406" class="cls-4" />
+    <rect x="987" y="213" width="25" height="404" class="cls-5" />
+    <path d="M-0.000,639.000 L-0.000,638.000 L1026.000,638.000 L1026.000,639.000 L-0.000,639.000 Z" class="cls-6" />
+    <path d="M224.000,638.000 L223.000,638.000 L223.000,30.000 L224.000,30.000 L224.000,638.000 Z" class="cls-6" />
+    <rect x="1" y="1" width="1025" height="29" class="cls-7" />
+    <path d="M1010.582,11.806 L1007.726,14.701 L1010.582,17.596 L1010.582,17.596 C1010.712,17.728 1010.793,17.911 1010.793,18.113 C1010.793,18.516 1010.470,18.844 1010.072,18.844 C1009.872,18.844 1009.692,18.762 1009.562,18.629 L1009.562,18.629 L1006.706,15.735 L1003.851,18.629 L1003.851,18.629 C1003.720,18.762 1003.540,18.844 1003.341,18.844 C1002.943,18.844 1002.620,18.516 1002.620,18.113 C1002.620,17.911 1002.700,17.728 1002.831,17.596 L1002.831,17.596 L1005.686,14.701 L1002.831,11.806 L1002.831,11.806 C1002.700,11.674 1002.620,11.491 1002.620,11.289 C1002.620,10.885 1002.943,10.558 1003.341,10.558 C1003.540,10.558 1003.720,10.640 1003.851,10.772 L1003.851,10.772 L1006.706,13.667 L1009.562,10.772 L1009.562,10.772 C1009.692,10.640 1009.872,10.558 1010.072,10.558 C1010.470,10.558 1010.793,10.885 1010.793,11.289 C1010.793,11.491 1010.712,11.674 1010.582,11.806 L1010.582,11.806 Z" class="cls-8" />
+    <rect x="369" y="103" width="371" height="29" rx="3" ry="3" class="cls-1" />
+    <path d="M718.000,103.000 C718.000,103.000 731.809,103.000 737.547,103.000 C738.897,103.000 740.000,103.946 740.000,105.015 C740.000,110.363 740.000,124.857 740.000,130.086 C740.000,130.906 738.954,132.000 737.860,132.000 C732.331,132.000 718.000,132.000 718.000,132.000 L718.000,103.000 Z" class="cls-9" />
+    <rect x="369" y="136" width="171" height="29" rx="3" ry="3" class="cls-10" />
+    <path d="M518.000,136.000 C518.000,136.000 531.809,136.000 537.547,136.000 C538.897,136.000 540.000,136.946 540.000,138.015 C540.000,143.363 540.000,157.857 540.000,163.086 C540.000,163.906 538.954,165.000 537.860,165.000 C532.331,165.000 518.000,165.000 518.000,165.000 L518.000,136.000 Z" class="cls-9" />
+    <rect x="544" y="138" width="25" height="26" rx="3" ry="3" class="cls-1" />
+    <circle cx="550" cy="151" r="1" class="cls-5" />
+    <circle cx="553" cy="151" r="1" class="cls-11" />
+    <circle cx="557" cy="151" r="1" class="cls-11" />
+    <circle cx="561" cy="151" r="1" class="cls-11" />
+    <rect x="736" y="660" width="59" height="25" rx="3" ry="3" class="cls-12" />
+    <rect x="808" y="660" width="59" height="25" rx="3" ry="3" class="cls-13" />
+    <rect x="879" y="660" width="59" height="25" rx="3" ry="3" class="cls-14" />
+    <text x="757" y="677" class="cls-15"><tspan class="cls-16">OK</tspan></text>
+    <text x="819" y="677" class="cls-15"><tspan class="cls-17">Cancel</tspan></text>
+    <text x="34" y="87" class="cls-15"><tspan class="cls-17">Appearance &amp; behavior</tspan></text>
+    <text x="237" y="56" class="cls-15"><tspan class="cls-17">Languages &amp; Frameworks</tspan></text>
+    <text x="237" y="89" class="cls-15"><tspan class="cls-17">Development environment</tspan></text>
+    <path d="M316.000,198.000 L316.000,197.000 L1013.000,197.000 L1013.000,198.000 L316.000,198.000 Z" class="cls-18" />
+    <path d="M397.000,85.000 L397.000,84.000 L1016.000,84.000 L1016.000,85.000 L397.000,85.000 Z" class="cls-18" />
+    <text x="237" y="202" class="cls-15"><tspan class="cls-17">Include path</tspan></text>
+    <text x="554" y="404" class="cls-15"><tspan class="cls-19">Provide Include path</tspan></text>
+    <text x="252" y="122" class="cls-15"><tspan class="cls-17">PHP language level:</tspan></text>
+    <text x="252" y="157" class="cls-15"><tspan class="cls-17">Interpreter:</tspan></text>
+    <text x="380" y="155" class="cls-15"><tspan class="cls-17">PHP 5.6</tspan></text>
+    <text x="427" y="155" class="cls-15"><tspan class="cls-20">(5.6.21)</tspan></text>
+    <text x="380" y="122" class="cls-15"><tspan class="cls-17">5.6</tspan></text>
+    <text x="409" y="122" class="cls-15"><tspan class="cls-19">(variadic functions, argument unpacking, etc)</tspan></text>
+    <text x="398" y="56" class="cls-15"><tspan class="cls-17">PHP</tspan></text>
+    <text x="986" y="56" class="cls-15"><tspan class="cls-21">Reset</tspan></text>
+    <path d="M1006.087,231.913 L1000.913,231.913 L1000.913,237.087 C1000.913,237.591 1000.504,238.000 1000.000,238.000 C999.496,238.000 999.087,237.591 999.087,237.087 L999.087,231.913 L993.913,231.913 C993.409,231.913 993.000,231.504 993.000,231.000 C993.000,230.496 993.409,230.087 993.913,230.087 L999.087,230.087 L999.087,224.913 C999.087,224.409 999.496,224.000 1000.000,224.000 C1000.504,224.000 1000.913,224.409 1000.913,224.913 L1000.913,230.087 L1006.087,230.087 C1006.591,230.087 1007.000,230.496 1007.000,231.000 C1007.000,231.504 1006.591,231.913 1006.087,231.913 Z" class="cls-22" />
+    <path d="M1006.087,260.000 L1000.913,260.000 L999.087,260.000 L993.913,260.000 C993.409,260.000 993.000,259.552 993.000,259.000 C993.000,258.448 993.409,258.000 993.913,258.000 L999.087,258.000 L1000.913,258.000 L1006.087,258.000 C1006.591,258.000 1007.000,258.448 1007.000,259.000 C1007.000,259.552 1006.591,260.000 1006.087,260.000 Z" class="cls-22" />
+    <path d="M1002.000,308.000 L998.000,308.000 L998.000,314.000 L994.000,314.000 L1000.000,320.000 L1006.000,314.000 L1002.000,314.000 L1002.000,308.000 Z" class="cls-22" />
+    <path d="M1002.000,291.000 L998.000,291.000 L998.000,285.000 L994.000,285.000 L1000.000,279.000 L1006.000,285.000 L1002.000,285.000 L1002.000,291.000 Z" class="cls-22" />
+    <text x="34" y="111" class="cls-15"><tspan class="cls-17">Keymap</tspan></text>
+    <text x="34" y="136" class="cls-15"><tspan class="cls-17">Editor</tspan></text>
+    <text x="34" y="162" class="cls-15"><tspan class="cls-17">Plugins</tspan></text>
+    <text x="34" y="185" class="cls-15"><tspan class="cls-17">Version Control</tspan></text>
+    <text x="34" y="207" class="cls-15"><tspan class="cls-17">Directories</tspan></text>
+    <text x="34" y="232" class="cls-15"><tspan class="cls-17">Build, Execution, Development</tspan></text>
+    <text x="34" y="568" class="cls-15"><tspan class="cls-17">Other Settings</tspan></text>
+    <text x="34" y="544" class="cls-15"><tspan class="cls-17">Tools</tspan></text>
+    <text x="34" y="254" class="cls-15"><tspan class="cls-17">Languages &amp; Frameworks</tspan></text>
+    <text x="53" y="281" class="cls-15"><tspan class="cls-17">JavaScript</tspan></text>
+    <text x="53" y="304" class="cls-15"><tspan class="cls-16">PHP</tspan></text>
+    <text x="53" y="327" class="cls-15"><tspan class="cls-17">Schemes and DTDs</tspan></text>
+    <text x="53" y="352" class="cls-15"><tspan class="cls-17">Compass</tspan></text>
+    <text x="53" y="375" class="cls-15"><tspan class="cls-17">Markdown</tspan></text>
+    <text x="53" y="398" class="cls-15"><tspan class="cls-17">Node.js and NPM</tspan></text>
+    <text x="53" y="423" class="cls-15"><tspan class="cls-17">SQL Dialects</tspan></text>
+    <text x="53" y="446" class="cls-15"><tspan class="cls-17">Template Data Languages</tspan></text>
+    <text x="53" y="472" class="cls-15"><tspan class="cls-17">TypeScript</tspan></text>
+    <text x="53" y="497" class="cls-15"><tspan class="cls-17">XSLT</tspan></text>
+    <text x="53" y="522" class="cls-15"><tspan class="cls-17">XSLT File Associations</tspan></text>
+    <text x="892" y="677" class="cls-15"><tspan class="cls-23">Apply</tspan></text>
+    <path d="M20.500,42.000 L206.500,42.000 C212.299,42.000 217.000,46.701 217.000,52.500 C217.000,58.299 212.299,63.000 206.500,63.000 L20.500,63.000 C14.701,63.000 10.000,58.299 10.000,52.500 C10.000,46.701 14.701,42.000 20.500,42.000 Z" class="cls-24" />
+    <path d="M24.455,82.914 L16.775,87.348 L16.775,78.480 L24.455,82.914 Z" class="cls-25" />
+    <path d="M24.455,131.914 L16.775,136.348 L16.775,127.480 L24.455,131.914 Z" class="cls-25" />
+    <path d="M729.492,121.985 L724.996,113.994 L733.988,113.994 L729.492,121.985 Z" class="cls-26" />
+    <path d="M529.492,154.985 L524.996,146.994 L533.988,146.994 L529.492,154.985 Z" class="cls-26" />
+    <path d="M24.455,180.914 L16.775,185.348 L16.775,176.480 L24.455,180.914 Z" class="cls-25" />
+    <path d="M24.455,226.914 L16.775,231.348 L16.775,222.480 L24.455,226.914 Z" class="cls-25" />
+    <path d="M40.455,275.914 L32.775,280.348 L32.775,271.480 L40.455,275.914 Z" class="cls-25" />
+    <path d="M40.455,299.914 L32.775,304.348 L32.775,295.480 L40.455,299.914 Z" class="cls-25" />
+    <path d="M40.455,323.914 L32.775,328.348 L32.775,319.480 L40.455,323.914 Z" class="cls-25" />
+    <path d="M40.455,369.914 L32.775,374.348 L32.775,365.480 L40.455,369.914 Z" class="cls-25" />
+    <path d="M40.455,466.914 L32.775,471.348 L32.775,462.480 L40.455,466.914 Z" class="cls-25" />
+    <path d="M24.455,539.914 L16.775,544.348 L16.775,535.480 L24.455,539.914 Z" class="cls-25" />
+    <path d="M24.455,563.914 L16.775,568.348 L16.775,559.480 L24.455,563.914 Z" class="cls-25" />
+    <rect x="950" y="660" width="59" height="25" rx="3" ry="3" class="cls-13" />
+    <text x="966" y="677" class="cls-15"><tspan class="cls-17">Help</tspan></text>
+    <text x="10" y="21" class="cls-27"><tspan class="cls-28">Settings</tspan></text>
+    <path d="M986.000,212.000 L987.000,212.000 L987.000,618.000 L986.000,618.000 L986.000,212.000 Z" class="cls-6" />
+    <path d="M28.643,56.920 C28.864,57.140 29.000,57.445 29.000,57.781 C29.000,58.454 28.454,59.000 27.781,59.000 C27.445,59.000 27.140,58.864 26.919,58.643 L26.919,58.643 L23.348,55.071 C22.622,55.500 21.779,55.750 20.875,55.750 C18.183,55.750 16.000,53.567 16.000,50.875 C16.000,48.183 18.183,46.000 20.875,46.000 C23.567,46.000 25.750,48.183 25.750,50.875 C25.750,51.779 25.500,52.622 25.071,53.348 L28.643,56.920 L28.643,56.920 ZM20.875,47.219 C18.856,47.219 17.219,48.856 17.219,50.875 C17.219,52.894 18.856,54.531 20.875,54.531 C22.894,54.531 24.531,52.894 24.531,50.875 C24.531,48.856 22.894,47.219 20.875,47.219 Z" class="cls-29" />
+    <path d="M388.174,49.005 L390.794,51.999 L388.140,55.032 L388.140,55.032 C388.053,55.135 388.000,55.274 388.000,55.429 C388.000,55.744 388.224,56.000 388.500,56.000 C388.635,56.000 388.757,55.939 388.847,55.840 L388.847,55.840 L391.847,52.411 L391.847,52.411 C391.941,52.307 392.000,52.162 392.000,52.000 C392.000,52.000 392.000,51.999 392.000,51.999 C392.000,51.998 392.000,51.998 392.000,51.997 C392.000,51.836 391.941,51.690 391.847,51.586 L391.847,51.586 L388.847,48.158 L388.846,48.159 C388.756,48.061 388.634,48.000 388.500,48.000 C388.224,48.000 388.000,48.256 388.000,48.571 C388.000,48.745 388.068,48.900 388.174,49.005 Z" class="cls-30" />
+</svg>

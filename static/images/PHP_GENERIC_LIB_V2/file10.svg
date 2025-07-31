@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="828" height="695" viewBox="0 0 828 695">
+    <defs>
+        <style>
+            .cls-1, .cls-14, .cls-18 {
+                fill: #e8e8e8;
+            }
+
+            .cls-1 {
+                stroke: #cacace;
+            }
+
+            .cls-1, .cls-14, .cls-6, .cls-7, .cls-8, .cls-9 {
+                stroke-linejoin: round;
+                stroke-width: 1px;
+            }
+
+            .cls-11, .cls-2, .cls-24, .cls-6 {
+                fill: #fff;
+            }
+
+            .cls-20, .cls-3 {
+                fill: #3875d6;
+            }
+
+            .cls-4 {
+                fill: #2eb227;
+            }
+
+            .cls-15, .cls-21, .cls-4, .cls-5 {
+                fill-rule: evenodd;
+            }
+
+            .cls-5 {
+                fill: #b22727;
+            }
+
+            .cls-14, .cls-6 {
+                stroke: #969696;
+            }
+
+            .cls-7 {
+                fill: #447cd6;
+            }
+
+            .cls-7, .cls-8 {
+                stroke: #8b8b8b;
+            }
+
+            .cls-8 {
+                fill: #d1d1d1;
+            }
+
+            .cls-9 {
+                fill: #e7e7e7;
+                stroke: #bebebe;
+            }
+
+            .cls-10, .cls-11, .cls-12, .cls-13, .cls-20 {
+                font-size: 13.333px;
+            }
+
+            .cls-11, .cls-12, .cls-13, .cls-17, .cls-20, .cls-24 {
+                font-family: "Myriad Pro";
+            }
+
+            .cls-12 {
+                fill: #1c1c1c;
+            }
+
+            .cls-13 {
+                fill: #c2c2c2;
+            }
+
+            .cls-15 {
+                fill: #3a3935;
+            }
+
+            .cls-16, .cls-17 {
+                font-size: 16px;
+            }
+
+            .cls-17 {
+                fill: #101010;
+            }
+
+            .cls-19 {
+                fill: #9e9e9e;
+            }
+
+            .cls-21 {
+                fill: #cfcfcf;
+            }
+
+            .cls-22 {
+                fill: #5791ed;
+            }
+
+            .cls-23, .cls-24 {
+                font-size: 8px;
+            }
+        </style>
+    </defs>
+    <rect width="828" height="695" class="cls-1" />
+    <rect x="13" y="83" width="159" height="553" class="cls-2" />
+    <rect x="13" y="64" width="159" height="20" class="cls-3" />
+    <path d="M31.087,50.913 L25.913,50.913 L25.913,56.087 C25.913,56.591 25.504,57.000 25.000,57.000 C24.496,57.000 24.087,56.591 24.087,56.087 L24.087,50.913 L18.913,50.913 C18.409,50.913 18.000,50.504 18.000,50.000 C18.000,49.496 18.409,49.087 18.913,49.087 L24.087,49.087 L24.087,43.913 C24.087,43.409 24.496,43.000 25.000,43.000 C25.504,43.000 25.913,43.409 25.913,43.913 L25.913,49.087 L31.087,49.087 C31.591,49.087 32.000,49.496 32.000,50.000 C32.000,50.504 31.591,50.913 31.087,50.913 Z" class="cls-4" />
+    <path d="M56.087,51.000 L50.913,51.000 L49.087,51.000 L43.913,51.000 C43.409,51.000 43.000,50.552 43.000,50.000 C43.000,49.448 43.409,49.000 43.913,49.000 L49.087,49.000 L50.913,49.000 L56.087,49.000 C56.591,49.000 57.000,49.448 57.000,50.000 C57.000,50.552 56.591,51.000 56.087,51.000 Z" class="cls-5" />
+    <rect x="641" y="53" width="14" height="14" rx="3" ry="3" class="cls-6" />
+    <rect x="537" y="658" width="59" height="25" rx="3" ry="3" class="cls-7" />
+    <rect x="609" y="658" width="59" height="25" rx="3" ry="3" class="cls-8" />
+    <rect x="680" y="658" width="59" height="25" rx="3" ry="3" class="cls-9" />
+    <text x="558" y="675" class="cls-10"><tspan class="cls-11">OK</tspan></text>
+    <text x="620" y="675" class="cls-10"><tspan class="cls-12">Cancel</tspan></text>
+    <text x="693" y="675" class="cls-10"><tspan class="cls-13">Apply</tspan></text>
+    <rect x="751" y="658" width="59" height="25" rx="3" ry="3" class="cls-8" />
+    <text x="767" y="675" class="cls-10"><tspan class="cls-12">Help</tspan></text>
+    <rect y="-1" width="827" height="29" class="cls-2" />
+    <rect x="229" y="47" width="397" height="26" class="cls-6" />
+    <rect x="294" y="115" width="420" height="26" class="cls-6" />
+    <rect x="333" y="255" width="447" height="26" class="cls-6" />
+    <rect x="333" y="285" width="447" height="26" class="cls-14" />
+    <path d="M811.582,8.806 L808.726,11.701 L811.582,14.596 L811.582,14.596 C811.712,14.728 811.793,14.911 811.793,15.113 C811.793,15.516 811.470,15.844 811.072,15.844 C810.872,15.844 810.692,15.762 810.562,15.629 L810.562,15.629 L807.706,12.735 L804.851,15.629 L804.851,15.629 C804.720,15.762 804.540,15.844 804.341,15.844 C803.943,15.844 803.620,15.516 803.620,15.113 C803.620,14.911 803.700,14.728 803.831,14.596 L803.831,14.596 L806.686,11.701 L803.831,8.806 L803.831,8.806 C803.700,8.674 803.620,8.491 803.620,8.289 C803.620,7.885 803.943,7.558 804.341,7.558 C804.540,7.558 804.720,7.640 804.851,7.772 L804.851,7.772 L807.706,10.667 L810.562,7.772 L810.562,7.772 C810.692,7.640 810.872,7.558 811.072,7.558 C811.470,7.558 811.793,7.885 811.793,8.289 C811.793,8.491 811.712,8.674 811.582,8.806 L811.582,8.806 Z" class="cls-15" />
+    <text x="12" y="19" class="cls-16"><tspan class="cls-17">Interpreters</tspan></text>
+    <text x="239" y="65" class="cls-10"><tspan class="cls-12">PHP 5.6</tspan></text>
+    <text x="186" y="65" class="cls-10"><tspan class="cls-12">Name:</tspan></text>
+    <text x="186" y="102" class="cls-10"><tspan class="cls-12">General</tspan></text>
+    <text x="192" y="133" class="cls-10"><tspan class="cls-12">PHP executable:</tspan></text>
+    <text x="218" y="166" class="cls-10"><tspan class="cls-12">PHP version: 5.6.21</tspan></text>
+    <text x="196" y="273" class="cls-10"><tspan class="cls-12">Debugger extensions:</tspan></text>
+    <text x="647" y="165" class="cls-10"><tspan class="cls-12">Debugger: Not installed</tspan></text>
+    <text x="42" y="79" class="cls-10"><tspan class="cls-11">PHP 5.6</tspan></text>
+    <rect x="719" y="115" width="25" height="26" rx="3" ry="3" class="cls-1" />
+    <circle cx="725" cy="128" r="1" class="cls-18" />
+    <circle cx="728" cy="128" r="1" class="cls-19" />
+    <circle cx="732" cy="128" r="1" class="cls-19" />
+    <circle cx="736" cy="128" r="1" class="cls-19" />
+    <rect x="785" y="255" width="25" height="26" rx="3" ry="3" class="cls-1" />
+    <circle cx="791" cy="268" r="1" class="cls-18" />
+    <circle cx="794" cy="268" r="1" class="cls-19" />
+    <circle cx="798" cy="268" r="1" class="cls-19" />
+    <circle cx="802" cy="268" r="1" class="cls-19" />
+    <rect x="785" y="285" width="25" height="26" rx="3" ry="3" class="cls-1" />
+    <circle cx="791" cy="298" r="1" class="cls-18" />
+    <circle cx="794" cy="298" r="1" class="cls-19" />
+    <circle cx="798" cy="298" r="1" class="cls-19" />
+    <circle cx="802" cy="298" r="1" class="cls-19" />
+    <text x="196" y="302" class="cls-10"><tspan class="cls-12">Configuration options:</tspan></text>
+    <text x="218" y="191" class="cls-10"><tspan class="cls-12">Configuration file: C:\XAMPP\php\php.ini</tspan></text>
+    <text x="537" y="191" class="cls-10"><tspan class="cls-20">Open in Editor</tspan></text>
+    <text x="303" y="132" class="cls-10"><tspan class="cls-12">C:\XAMPP\php\php.exe</tspan></text>
+    <path d="M235.000,97.000 L235.000,96.000 L811.000,96.000 L811.000,97.000 L235.000,97.000 Z" class="cls-21" />
+    <text x="186" y="240" class="cls-10"><tspan class="cls-12">Additional</tspan></text>
+    <path d="M266.000,235.000 L266.000,234.000 L811.000,234.000 L811.000,235.000 L266.000,235.000 Z" class="cls-21" />
+    <text x="664" y="65" class="cls-10"><tspan class="cls-12">Visible only for this project</tspan></text>
+    <circle cx="204.5" cy="161.5" r="5.5" class="cls-22" />
+    <circle cx="204.5" cy="185.5" r="5.5" class="cls-22" />
+    <text x="203" y="164" class="cls-23"><tspan class="cls-24">i</tspan></text>
+    <text x="203" y="188" class="cls-23"><tspan class="cls-24">i</tspan></text>
+    <circle cx="773.5" cy="129.5" r="5.5" class="cls-22" />
+    <text x="772" y="132" class="cls-23"><tspan class="cls-24">i</tspan></text>
+</svg>
