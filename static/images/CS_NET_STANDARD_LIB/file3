@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="850" height="540" viewBox="0 0 850 540">
+  <defs>
+    <style>
+      .bold{
+            font-weight:700;
+      }
+
+      .cls-1, .cls-5 {
+        fill: #eeeef2;
+      }
+
+      .cls-1, .cls-59 {
+        stroke: #cacace;
+      }
+
+      .cls-1, .cls-14, .cls-3, .cls-33, .cls-35, .cls-36, .cls-37, .cls-40, .cls-45, .cls-59, .cls-9 {
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2, .cls-32 {
+        fill: #007acc;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-2, .cls-26, .cls-29, .cls-3, .cls-33, .cls-35, .cls-36, .cls-37, .cls-39, .cls-4, .cls-40, .cls-41, .cls-45, .cls-5, .cls-60 {
+        fill-rule: evenodd;
+      }
+
+      .cls-10, .cls-25, .cls-26, .cls-3, .cls-33, .cls-34, .cls-36, .cls-56, .cls-59 {
+        fill: #fff;
+      }
+
+      .cls-14, .cls-3, .cls-45 {
+        stroke: #d1d2de;
+      }
+
+      .cls-4, .cls-40 {
+        fill: #68217a;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        font-size: 20px;
+      }
+
+      .cls-7 {
+        fill: #4d4a55;
+      }
+
+      .cls-21, .cls-23, .cls-28, .cls-31, .cls-32, .cls-34, .cls-42, .cls-43, .cls-44, .cls-47, .cls-48, .cls-7, .cls-8 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .cls-39, .cls-8 {
+        fill: #85818e;
+      }
+
+      .cls-9 {
+        fill: #e6e7e8;
+        stroke: #c8cbd8;
+      }
+
+      .cls-11 {
+        fill: #c7c8cf;
+      }
+
+      .cls-12 {
+        fill: #868999;
+      }
+
+      .cls-13 {
+        fill: #c8cbd8;
+      }
+
+      .cls-14, .cls-45 {
+        fill: #f6f6f6;
+      }
+
+      .cls-15 {
+        fill: #39f;
+      }
+
+      .cls-16, .cls-31, .cls-37, .cls-47 {
+        fill: #cdcdd1;
+      }
+
+      .cls-17 {
+        fill: #dbb377;
+      }
+
+      .cls-18, .cls-19, .cls-38 {
+        font-size: 40px;
+      }
+
+      .cls-19 {
+        fill: #489344;
+      }
+
+      .cls-19, .cls-25, .cls-38 {
+        text-anchor: middle;
+      }
+
+      .cls-19, .cls-38 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .cls-20, .cls-21, .cls-47, .cls-48 {
+        font-size: 32.869px;
+      }
+
+      .cls-21, .cls-23, .cls-29, .cls-35, .cls-38 {
+        fill: #404040;
+      }
+
+      .cls-22, .cls-23, .cls-32 {
+        font-size: 26.893px;
+      }
+
+      .cls-24, .cls-25 {
+        font-size: 38.845px;
+      }
+
+      .cls-25 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .cls-27, .cls-28, .cls-42, .cls-43, .cls-44 {
+        font-size: 23px;
+      }
+
+      .cls-28 {
+        fill: #bebdbd;
+      }
+
+      .cls-30, .cls-31, .cls-34 {
+        font-size: 35.857px;
+      }
+
+      .cls-33 {
+        stroke: #489344;
+      }
+
+      .cls-35 {
+        stroke: #fff;
+      }
+
+      .cls-36 {
+        stroke: #cdcdd1;
+      }
+
+      .cls-37, .cls-40 {
+        stroke: #f5f5f5;
+      }
+
+      .cls-41, .cls-48 {
+        fill: #cacace;
+      }
+
+      .cls-42 {
+        fill: #5a5a5d;        
+      }
+
+      .cls-43 {
+        fill: #96969b;
+      }
+
+      .cls-44 {
+        fill: #838a99;
+      }
+
+      .cls-45 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-46 {
+        fill: #c9def5;
+      }
+
+      .cls-49, .cls-50, .cls-51, .cls-53, .cls-54, .cls-61, .cls-62 {
+        font-size: 12px;
+      }
+
+      .cls-50 {
+        fill: #3b3b3a;
+      }
+
+      .cls-50, .cls-51, .cls-53, .cls-54, .cls-56, .cls-58, .cls-61, .cls-62 {
+        font-family: "Calibri";
+      }
+
+      .cls-51 {
+        fill: #3b3aff;
+      }
+
+      .cls-52 {
+        fill: #272727;
+      }
+
+      .cls-53 {
+        fill: #3535ff;
+      }
+
+      .cls-54 {
+        fill: #4a98b1;
+      }
+
+      .cls-55, .cls-56 {
+        font-size: 10px;
+      }
+
+      .cls-57, .cls-58 {
+        font-size: 8px;
+      }
+
+      .cls-58 {
+        fill: #bbbec6;
+      }
+
+      .cls-60, .cls-62 {
+        fill: #aeaeb0;
+      }
+
+      .cls-61 {
+        fill: #aeacff;
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.487" dy="1.678" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="dropBlur"/>
+      <feFlood flood-opacity="0.27"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <rect width="850" height="540" class="cls-1"/>
+  <path d="M10.006,508.000 L840.494,508.000 L840.494,529.000 L10.006,529.000 L10.006,508.000 Z" class="cls-2"/>
+  <path d="M668.893,8.500 L838.493,8.500 L838.493,27.000 L668.893,27.000 L668.893,8.500 Z" class="cls-3"/>
+  <path d="M39.523,7.433 L39.523,26.567 L34.717,28.500 L24.266,18.431 L17.883,23.252 L16.510,22.549 L16.510,11.401 L17.883,10.723 L24.291,15.544 L34.692,5.500 L39.523,7.433 Z" class="cls-4"/>
+  <path d="M33.929,12.556 L33.929,21.394 L28.029,17.000 L33.929,12.556 Z" class="cls-5"/>
+  <path d="M18.544,14.389 L18.544,19.662 L21.519,17.025 L18.544,14.389 Z" class="cls-5"/>
+  <text transform="translate(52 20) scale(0.5 0.5)" class="cls-6"><tspan class="cls-7">FdxApi - Microsoft Visual Studio</tspan></text>
+  <text transform="translate(678 21) scale(0.5 0.5)" class="cls-6"><tspan class="cls-8">Quick Launch (Ctrl + Q)</tspan></text>
+  <rect x="26" y="103" width="561" height="380" class="cls-9"/>
+  <rect x="42" y="125" width="527" height="341" class="cls-10"/>
+  <path d="M573.040,140.020 L582.715,140.020 L582.715,390.868 L573.040,390.868 L573.040,140.020 Z" class="cls-11"/>
+  <path d="M578.035,128.423 L582.401,135.989 L573.668,135.989 L578.035,128.423 Z" class="cls-12"/>
+  <path d="M26.000,80.000 L140.128,80.000 L140.344,102.000 L587.000,102.000 L587.000,125.000 L26.000,125.000 L26.000,80.000 Z" class="cls-13"/>
+  <rect x="29" y="104" width="188" height="19" class="cls-10"/>
+  <rect x="220" y="104" width="186" height="19" class="cls-10"/>
+  <rect x="409" y="104" width="175" height="19" class="cls-10"/>
+  <path d="M596.851,79.500 L839.994,79.500 L839.994,464.000 L682.401,464.000 L682.401,484.000 L596.851,484.000 L596.851,79.500 Z" class="cls-14"/>
+  <path d="M596.851,79.500 L839.994,79.500 L839.994,103.000 L596.851,103.000 L596.851,79.500 Z" class="cls-2"/>
+  <path d="M596.851,203.500 L839.994,203.500 L839.994,225.000 L596.851,225.000 L596.851,203.500 Z" class="cls-15"/>
+  <path d="M596.851,127.000 L839.994,127.000 L839.994,145.500 L596.851,145.500 L596.851,127.000 Z" class="cls-3"/>
+  <path d="M625.153,194.591 L618.654,198.341 L618.654,190.841 L625.153,194.591 Z" class="cls-16"/>
+  <path d="M625.153,289.591 L618.654,293.341 L618.654,285.841 L625.153,289.591 Z" class="cls-16"/>
+  <path d="M625.153,309.091 L618.654,312.841 L618.654,305.341 L625.153,309.091 Z" class="cls-16"/>
+  <path d="M625.153,329.091 L618.654,332.841 L618.654,325.341 L625.153,329.091 Z" class="cls-16"/>
+  <path d="M625.153,349.091 L618.654,352.841 L618.654,345.341 L625.153,349.091 Z" class="cls-16"/>
+  <path d="M625.153,368.591 L618.654,372.341 L618.654,364.841 L625.153,368.591 Z" class="cls-16"/>
+  <path d="M625.153,388.591 L618.654,392.341 L618.654,384.841 L625.153,388.591 Z" class="cls-16"/>
+  <path d="M625.153,428.091 L618.654,431.841 L618.654,424.341 L625.153,428.091 Z" class="cls-16"/>
+  <path d="M634.342,312.500 L643.410,312.500 C643.669,312.500 643.879,312.285 643.879,312.020 L643.879,311.380 L643.879,310.580 L643.879,309.940 L643.879,309.140 L643.879,308.500 L643.879,306.900 L633.873,306.900 L633.873,308.500 L633.873,309.140 L633.873,309.940 L633.873,310.580 L633.873,311.380 L633.873,312.020 C633.873,312.285 634.083,312.500 634.342,312.500 ZM643.879,305.940 L643.879,305.620 L643.879,304.980 C643.879,304.715 643.669,304.500 643.410,304.500 L642.784,304.500 L642.472,304.500 L642.003,304.500 L641.065,304.500 L640.129,305.460 L634.342,305.460 C634.083,305.460 633.873,305.675 633.873,305.940 L633.873,306.420 L643.879,306.420 L643.879,305.940 Z" class="cls-17"/>
+  <path d="M634.342,332.500 L643.410,332.500 C643.669,332.500 643.879,332.285 643.879,332.020 L643.879,331.380 L643.879,330.580 L643.879,329.940 L643.879,329.140 L643.879,328.500 L643.879,326.900 L633.873,326.900 L633.873,328.500 L633.873,329.140 L633.873,329.940 L633.873,330.580 L633.873,331.380 L633.873,332.020 C633.873,332.285 634.083,332.500 634.342,332.500 ZM643.879,325.940 L643.879,325.620 L643.879,324.980 C643.879,324.715 643.669,324.500 643.410,324.500 L642.784,324.500 L642.472,324.500 L642.003,324.500 L641.065,324.500 L640.129,325.460 L634.342,325.460 C634.083,325.460 633.873,325.675 633.873,325.940 L633.873,326.420 L643.879,326.420 L643.879,325.940 Z" class="cls-17"/>
+  <text transform="translate(639 352) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-19">C#</tspan></text>
+  <text transform="translate(639 255) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-19">C#</tspan></text>
+  <text transform="translate(639 371) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-19">C#</tspan></text>
+  <text transform="translate(639 391) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-19">C#</tspan></text>
+  <text transform="translate(639 431) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-19">C#</tspan></text>
+  <text transform="translate(641 177) scale(0.33 0.33)" class="cls-20"><tspan class="cls-21 bold">TestConsoleProject</tspan></text>
+  <text transform="translate(626 158) scale(0.33 0.33)" class="cls-22"><tspan class="cls-21">Solution 'FdxApi' (2 projects) </tspan></text>
+  <text transform="translate(660 95) scale(0.33 0.33)" class="cls-24"><tspan x="0" class="cls-25">Solution Explorer</tspan></text>
+  <path d="M831.019,88.530 L828.048,91.500 L831.019,94.470 L831.019,94.470 C831.155,94.605 831.239,94.793 831.239,95.000 C831.239,95.414 830.903,95.750 830.488,95.750 C830.281,95.750 830.094,95.666 829.958,95.530 L829.958,95.530 L826.986,92.561 L824.015,95.530 L824.015,95.530 C823.879,95.666 823.692,95.750 823.484,95.750 C823.070,95.750 822.734,95.414 822.734,95.000 C822.734,94.793 822.818,94.605 822.954,94.470 L822.954,94.470 L825.925,91.500 L822.954,88.530 L822.954,88.530 C822.818,88.395 822.734,88.207 822.734,88.000 C822.734,87.586 823.070,87.250 823.484,87.250 C823.692,87.250 823.879,87.334 824.015,87.470 L824.015,87.470 L826.986,90.439 L829.958,87.470 L829.958,87.470 C830.094,87.334 830.281,87.250 830.488,87.250 C830.903,87.250 831.239,87.586 831.239,88.000 C831.239,88.207 831.155,88.395 831.019,88.530 L831.019,88.530 Z" class="cls-26"/>
+  <text transform="translate(193 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Build</tspan></text>
+  <rect x="607" y="150" width="13" height="10" class="cls-10"/>
+  <path d="M619.278,160.000 L607.944,160.000 C607.620,160.000 607.357,159.748 607.357,159.438 L607.357,150.063 C607.357,149.752 607.620,149.500 607.944,149.500 L619.278,149.500 C619.602,149.500 619.865,149.752 619.865,150.063 L619.865,159.438 C619.865,159.748 619.602,160.000 619.278,160.000 ZM619.278,151.750 L618.692,151.750 L608.530,151.750 L607.944,151.750 L607.944,159.438 L619.278,159.438 L619.278,151.750 Z" class="cls-29"/>
+  <text transform="translate(653 199) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">Properties</tspan></text>
+  <text transform="translate(653 294) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">References</tspan></text>
+  <text transform="translate(653 312) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">Controllers</tspan></text>
+  <text transform="translate(653 331) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">Http</tspan></text>
+  <text transform="translate(654 352) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">APIException.cs</tspan></text>
+  <text transform="translate(654 371) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">APIHelper.cs</tspan></text>
+  <text transform="translate(653 391) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">Configuration.cs</tspan></text>
+  <text transform="translate(653 412) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">Packages.config</tspan></text>
+  <text transform="translate(654 431) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">FdxApiClient.cs</tspan></text>
+  <text transform="translate(602 476) scale(0.33 0.33)" class="cls-22"><tspan class="cls-23">Solution Explorer</tspan></text>
+  <text transform="translate(688 476) scale(0.33 0.33)" class="cls-22"><tspan class="cls-32">Team Explorer</tspan></text>
+  <path d="M34.366,107.000 L46.873,107.000 L46.873,119.500 L34.366,119.500 L34.366,107.000 Z" class="cls-33"/>
+  <path d="M639.454,287.000 L644.379,287.000 L644.379,293.000 L639.454,293.000 L639.454,287.000 Z" class="cls-16"/>
+  <path d="M632.872,287.859 L636.155,287.859 L636.155,292.141 L632.872,292.141 L632.872,287.859 Z" class="cls-16"/>
+  <path d="M636.984,289.578 L638.626,289.578 L638.626,290.422 L636.984,290.422 L636.984,289.578 Z" class="cls-16"/>
+  <path d="M625.153,214.591 L618.654,218.341 L618.654,210.841 L625.153,214.591 Z" class="cls-26"/>
+  <text transform="translate(653 219) scale(0.33 0.33)" class="cls-30"><tspan class="cls-34">References</tspan></text>
+  <path d="M639.454,212.000 L644.379,212.000 L644.379,218.000 L639.454,218.000 L639.454,212.000 Z" class="cls-35"/>
+  <path d="M632.872,212.859 L636.155,212.859 L636.155,217.141 L632.872,217.141 L632.872,212.859 Z" class="cls-35"/>
+  <path d="M636.984,214.578 L638.626,214.578 L638.626,215.422 L636.984,215.422 L636.984,214.578 Z" class="cls-35"/>
+  <path d="M625.153,232.591 L618.654,236.341 L618.654,228.841 L625.153,232.591 Z" class="cls-16"/>
+  <text transform="translate(653 237) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">App.config</tspan></text>
+  <path d="M625.153,252.591 L618.654,256.341 L618.654,248.841 L625.153,252.591 Z" class="cls-16"/>
+  <text transform="translate(653 257) scale(0.33 0.33)" class="cls-30"><tspan class="cls-31">Program.cs</tspan></text>
+  <path d="M642.833,413.500 L635.919,413.500 C635.618,413.500 635.374,413.257 635.374,412.957 L635.374,403.554 C635.374,403.254 635.618,403.011 635.919,403.011 L638.830,403.011 L638.830,404.998 L638.830,406.086 C638.830,406.686 639.319,407.173 639.922,407.173 L641.013,407.173 L643.378,407.173 L643.378,411.511 L643.378,412.957 C643.378,413.257 643.134,413.500 642.833,413.500 ZM639.922,406.630 C639.620,406.630 639.376,406.386 639.376,406.086 L639.376,404.998 L639.376,403.005 L643.378,406.630 L641.013,406.630 L639.922,406.630 Z" class="cls-36"/>
+  <path d="M639.376,403.000 L643.378,407.000 L638.876,407.000 L638.876,403.000 L639.376,403.000 Z" class="cls-16"/>
+  <path d="M643.798,193.054 C643.749,192.861 643.507,192.793 643.366,192.934 L642.216,194.079 C641.961,194.333 641.547,194.333 641.292,194.079 L640.765,193.554 C640.509,193.300 640.509,192.888 640.765,192.633 L641.900,191.503 C642.043,191.361 641.973,191.117 641.777,191.072 C641.508,191.009 641.224,190.986 640.931,191.009 C639.673,191.109 638.514,192.285 638.436,193.540 C638.406,194.016 638.502,194.466 638.691,194.864 L634.672,198.303 C634.492,198.457 634.384,198.680 634.373,198.917 C634.363,199.154 634.452,199.384 634.619,199.553 L635.300,200.244 C635.469,200.415 635.702,200.508 635.942,200.500 C636.183,200.492 636.409,200.385 636.566,200.204 L640.047,196.188 C640.435,196.361 640.870,196.449 641.329,196.420 C642.598,196.342 643.779,195.179 643.871,193.916 C643.893,193.617 643.866,193.327 643.798,193.054 Z" class="cls-16"/>
+  <path d="M636.426,406.534 C636.298,406.456 636.134,406.550 636.134,406.702 L636.132,407.940 C636.131,408.214 635.912,408.437 635.643,408.438 L635.085,408.439 C634.816,408.439 634.598,408.217 634.598,407.942 L634.600,406.720 C634.601,406.567 634.435,406.473 634.307,406.554 C634.131,406.665 633.969,406.806 633.826,406.976 C633.213,407.709 633.222,408.968 633.845,409.687 C634.082,409.960 634.371,410.151 634.682,410.264 L634.376,414.286 C634.362,414.467 634.423,414.645 634.543,414.778 C634.663,414.912 634.832,414.988 635.010,414.989 L635.736,414.995 C635.916,414.996 636.089,414.921 636.212,414.787 C636.335,414.653 636.398,414.473 636.385,414.290 L636.101,410.247 C636.398,410.131 636.675,409.944 636.903,409.681 C637.533,408.954 637.542,407.690 636.922,406.959 C636.775,406.786 636.607,406.644 636.426,406.534 Z" class="cls-37"/>
+  <path d="M642.833,238.500 L635.919,238.500 C635.618,238.500 635.374,238.257 635.374,237.957 L635.374,228.554 C635.374,228.254 635.618,228.011 635.919,228.011 L638.830,228.011 L638.830,229.998 L638.830,231.086 C638.830,231.686 639.319,232.173 639.922,232.173 L641.013,232.173 L643.378,232.173 L643.378,236.511 L643.378,237.957 C643.378,238.257 643.134,238.500 642.833,238.500 ZM639.922,231.630 C639.620,231.630 639.376,231.386 639.376,231.086 L639.376,229.998 L639.376,228.005 L643.378,231.630 L641.013,231.630 L639.922,231.630 Z" class="cls-36"/>
+  <path d="M639.376,228.000 L643.378,232.000 L638.876,232.000 L638.876,228.000 L639.376,228.000 Z" class="cls-16"/>
+  <path d="M636.426,231.534 C636.298,231.456 636.134,231.550 636.134,231.702 L636.132,232.940 C636.131,233.214 635.912,233.437 635.643,233.438 L635.085,233.439 C634.816,233.439 634.598,233.217 634.598,232.942 L634.600,231.720 C634.601,231.567 634.435,231.473 634.307,231.554 C634.131,231.665 633.969,231.806 633.826,231.976 C633.213,232.709 633.222,233.968 633.845,234.687 C634.082,234.960 634.371,235.151 634.682,235.264 L634.376,239.286 C634.362,239.467 634.423,239.645 634.543,239.778 C634.663,239.912 634.832,239.988 635.010,239.989 L635.736,239.995 C635.916,239.996 636.089,239.921 636.212,239.787 C636.335,239.653 636.398,239.473 636.385,239.290 L636.101,235.247 C636.398,235.131 636.675,234.944 636.903,234.681 C637.533,233.954 637.542,232.690 636.922,231.959 C636.775,231.786 636.607,231.644 636.426,231.534 Z" class="cls-37"/>
+  <path d="M614.361,170.500 L607.357,177.500 L614.361,177.500 L614.361,170.500 Z" class="cls-26"/>
+  <text transform="translate(41 116) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-38">C#</tspan></text>
+  <rect x="621" y="167" width="15" height="15" class="cls-10"/>
+  <path d="M622.366,168.000 L634.873,168.000 L634.873,180.500 L622.366,180.500 L622.366,168.000 Z" class="cls-33"/>
+  <text transform="translate(629 177) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-38">C#</tspan></text>
+  <text transform="translate(641 275) scale(0.33 0.33)" class="cls-20"><tspan class="cls-21">FdxApi.Standard (Portable)</tspan></text>
+  <path d="M614.361,268.500 L607.357,275.500 L614.361,275.500 L614.361,268.500 Z" class="cls-29"/>
+  <path d="M622.366,266.000 L634.873,266.000 L634.873,278.500 L622.366,278.500 L622.366,266.000 Z" class="cls-33"/>
+  <text transform="translate(629 275) scale(0.2 0.2)" class="cls-18"><tspan x="0" class="cls-38">C#</tspan></text>
+  <path d="M820.785,21.740 C820.598,21.926 820.483,22.184 820.483,22.469 C820.483,23.038 820.945,23.500 821.514,23.500 C821.799,23.500 822.057,23.385 822.244,23.198 L822.244,23.198 L825.268,20.176 C825.882,20.538 826.596,20.750 827.362,20.750 C829.641,20.750 831.489,18.903 831.489,16.625 C831.489,14.347 829.641,12.500 827.362,12.500 C825.082,12.500 823.234,14.347 823.234,16.625 C823.234,17.390 823.446,18.103 823.809,18.717 L820.785,21.740 L820.785,21.740 ZM827.362,13.531 C829.071,13.531 830.457,14.916 830.457,16.625 C830.457,18.334 829.071,19.719 827.362,19.719 C825.652,19.719 824.266,18.334 824.266,16.625 C824.266,14.916 825.652,13.531 827.362,13.531 Z" class="cls-39"/>
+  <path d="M822.286,140.240 C822.099,140.426 821.983,140.684 821.983,140.969 C821.983,141.538 822.445,142.000 823.015,142.000 C823.300,142.000 823.558,141.885 823.745,141.698 L823.745,141.698 L826.769,138.676 C827.383,139.038 828.097,139.250 828.862,139.250 C831.142,139.250 832.990,137.403 832.990,135.125 C832.990,132.847 831.142,131.000 828.862,131.000 C826.583,131.000 824.735,132.847 824.735,135.125 C824.735,135.890 824.947,136.603 825.310,137.217 L822.286,140.240 L822.286,140.240 ZM828.862,132.031 C830.572,132.031 831.958,133.416 831.958,135.125 C831.958,136.834 830.572,138.219 828.862,138.219 C827.153,138.219 825.767,136.834 825.767,135.125 C825.767,133.416 827.153,132.031 828.862,132.031 Z" class="cls-39"/>
+  <path d="M614.361,155.130 L614.361,161.370 L612.794,162.000 L609.386,158.717 L607.305,160.289 L606.857,160.059 L606.857,156.424 L607.305,156.203 L609.394,157.775 L612.786,154.500 L614.361,155.130 Z" class="cls-40"/>
+  <path d="M612.537,156.801 L612.537,159.683 L610.613,158.250 L612.537,156.801 Z" class="cls-5"/>
+  <path d="M607.520,157.398 L607.520,159.118 L608.490,158.258 L607.520,157.398 Z" class="cls-5"/>
+  <text transform="translate(607 140) scale(0.5 0.5)" class="cls-6"><tspan class="cls-8">Search Solution Explorer (Ctrl + ;)</tspan></text>
+  <path d="M813.478,38.500 L838.994,38.500 L838.994,64.000 L813.478,64.000 L813.478,38.500 Z" class="cls-41"/>
+  <path d="M9.005,99.500 L15.009,99.500 L15.009,145.500 L9.005,145.500 L9.005,99.500 Z" class="cls-41"/>
+  <path d="M9.005,165.500 L15.009,165.500 L15.009,222.000 L9.005,222.000 L9.005,165.500 Z" class="cls-41"/>
+  <path d="M9.005,237.000 L15.009,237.000 L15.009,293.500 L9.005,293.500 L9.005,237.000 Z" class="cls-41"/>
+  <text transform="translate(26 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">File</tspan></text>
+  <text transform="translate(406 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Architecture</tspan></text>
+  <text transform="translate(489 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Test </tspan></text>
+  <text transform="translate(656 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Help</tspan></text>
+  <text transform="translate(595 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Window</tspan></text>
+  <text transform="translate(538 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Analyze</tspan></text>
+  <text transform="translate(356 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Tools</tspan></text>
+  <text transform="translate(304 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Team</tspan></text>
+  <text transform="translate(61 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Edit</tspan></text>
+  <text transform="translate(96 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">View</tspan></text>
+  <text transform="translate(52 117) scale(0.5 0.5)" class="cls-27"><tspan class="cls-42">TestConsoleProject</tspan></text>
+  <text transform="translate(226 117) scale(0.5 0.5)" class="cls-27"><tspan class="cls-43">TestConsoleProject.Program</tspan></text>
+  <text transform="translate(417 117) scale(0.5 0.5)" class="cls-27"><tspan class="cls-43">Main(string[] args)</tspan></text>
+  <text transform="translate(34 95) scale(0.5 0.5)" class="cls-27"><tspan class="cls-44">Program.cs</tspan></text>
+  <text transform="translate(123 97) scale(0.7 0.7)" class="cls-27"><tspan class="cls-44">x</tspan></text>
+  <text transform="translate(137 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Project </tspan></text>
+  <text transform="translate(246 55) scale(0.5 0.5)" class="cls-27"><tspan class="cls-28">Debug</tspan></text>
+  <g style="fill: #f6f6f6; filter: url(#drop-shadow-1)">
+    <path d="M616.008,211.997 L616.008,343.000 L385.990,343.000 L385.990,212.043 L616.008,211.997 Z" id="path-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-45"/>
+  </g>
+  <use xlink:href="#path-1" style="stroke: #d1d2de; filter: none; fill: none"/>
+  <rect x="388" y="214" width="225" height="19" class="cls-46"/>
+  <text transform="translate(403 228) scale(0.33 0.33)" class="cls-20"><tspan class="cls-21">Add Reference...</tspan></text>
+  <text transform="translate(403 246) scale(0.33 0.33)" class="cls-20"><tspan class="cls-47">Add Service Reference...</tspan></text>
+  <text transform="translate(403 264) scale(0.33 0.33)" class="cls-20"><tspan class="cls-47">Add Connected Service...</tspan></text>
+  <text transform="translate(403 281) scale(0.33 0.33)" class="cls-20"><tspan class="cls-48">Add Analyzer...</tspan></text>
+  <text transform="translate(403 298) scale(0.33 0.33)" class="cls-20"><tspan class="cls-47">Manage NuGet Packages</tspan></text>
+  <text transform="translate(403 317) scale(0.33 0.33)" class="cls-20"><tspan class="cls-47">Scope to This</tspan></text>
+  <text transform="translate(403 334) scale(0.33 0.33)" class="cls-20"><tspan class="cls-47">New Solution Explorer View</tspan></text>
+  <path d="M613.324,304.537 L613.324,305.036 L397.943,305.036 L397.943,304.537 L613.324,304.537 Z" class="cls-41"/>
+  <path d="M613.324,251.548 L613.324,252.047 L397.943,252.047 L397.943,251.548 L613.324,251.548 Z" class="cls-41"/>
+  <text x="140" y="248" class="cls-49"><tspan class="cls-50">TestConsoleProject</tspan></text>
+  <text x="78" y="247" class="cls-49"><tspan class="cls-49"><tspan class="cls-51">namespace<tspan class="cls-52"> </tspan></tspan></tspan></text>
+  <text x="99" y="284" class="cls-49"><tspan class="cls-53">class</tspan></text>
+  <text x="128" y="284" class="cls-49"><tspan class="cls-54">Program</tspan></text>
+  <text x="119" y="321" class="cls-49"><tspan class="cls-53">static void</tspan></text>
+  <text x="19" y="522" class="cls-55"><tspan class="cls-56">Ready</tspan></text>
+  <text x="119" y="309" class="cls-57"><tspan class="cls-58">0 references</tspan></text>
+  <text x="99" y="272" class="cls-57"><tspan class="cls-58">0 references</tspan></text>
+  <text x="203" y="321" class="cls-49"><tspan class="cls-53">string</tspan></text>
+  <text x="231" y="321" class="cls-49"><tspan class="cls-50">[ ]  args)</tspan></text>
+  <text x="174" y="321" class="cls-49"><tspan class="cls-50">Main(</tspan></text>
+  <text x="78" y="261" class="cls-49"><tspan class="cls-50">{</tspan></text>
+  <text x="99" y="298" class="cls-49"><tspan class="cls-50">{</tspan></text>
+  <text x="120" y="334" class="cls-49"><tspan class="cls-50">{</tspan></text>
+  <text x="78" y="376" class="cls-49"><tspan class="cls-50">}</tspan></text>
+  <text x="99" y="362" class="cls-49"><tspan class="cls-50">}</tspan></text>
+  <text x="120" y="348" class="cls-49"><tspan class="cls-50">}</tspan></text>
+  <path d="M71.000,154.000 L72.000,154.000 L72.000,215.000 L71.000,215.000 L71.000,154.000 Z" class="cls-41"/>
+  <path d="M71.000,215.000 L71.000,214.000 L77.000,214.000 L77.000,215.000 L71.000,215.000 Z" class="cls-41"/>
+  <path d="M71.000,352.000 L71.000,351.000 L77.000,351.000 L77.000,352.000 L71.000,352.000 Z" class="cls-41"/>
+  <path d="M71.000,367.000 L71.000,366.000 L77.000,366.000 L77.000,367.000 L71.000,367.000 Z" class="cls-41"/>
+  <path d="M71.000,381.000 L71.000,380.000 L77.000,380.000 L77.000,381.000 L71.000,381.000 Z" class="cls-41"/>
+  <rect x="67" y="146" width="9" height="8" class="cls-59"/>
+  <path d="M69.000,151.000 L69.000,149.000 L74.000,149.000 L74.000,151.000 L69.000,151.000 Z" class="cls-60"/>
+  <path d="M71.000,247.000 L72.000,247.000 L72.000,308.000 L71.000,308.000 L71.000,247.000 Z" class="cls-41"/>
+  <path d="M71.000,305.000 L72.000,305.000 L72.000,381.000 L71.000,381.000 L71.000,305.000 Z" class="cls-41"/>
+  <rect x="67" y="239" width="9" height="8" class="cls-59"/>
+  <path d="M69.000,244.000 L69.000,242.000 L74.000,242.000 L74.000,244.000 L69.000,244.000 Z" class="cls-60"/>
+  <path d="M71.000,284.000 L72.000,284.000 L72.000,345.000 L71.000,345.000 L71.000,284.000 Z" class="cls-41"/>
+  <rect x="67" y="314" width="9" height="8" class="cls-59"/>
+  <path d="M69.000,319.000 L69.000,317.000 L74.000,317.000 L74.000,319.000 L69.000,319.000 Z" class="cls-60"/>
+  <rect x="67" y="277" width="9" height="8" class="cls-59"/>
+  <path d="M69.000,282.000 L69.000,280.000 L74.000,280.000 L74.000,282.000 L69.000,282.000 Z" class="cls-60"/>
+  <text x="78" y="153" class="cls-49"><tspan class="cls-61">using</tspan></text>
+  <text x="111" y="153" class="cls-49"><tspan class="cls-62">System;</tspan></text>
+  <text x="78" y="167" class="cls-49"><tspan class="cls-61">using</tspan></text>
+  <text x="111" y="167" class="cls-49"><tspan class="cls-62">System.Collections.Generic;</tspan></text>
+  <text x="78" y="182" class="cls-49"><tspan class="cls-61">using</tspan></text>
+  <text x="111" y="182" class="cls-49"><tspan class="cls-62">System.Linq;</tspan></text>
+  <text x="78" y="196" class="cls-49"><tspan class="cls-61">using</tspan></text>
+  <text x="111" y="196" class="cls-49"><tspan class="cls-62">System.Text;</tspan></text>
+  <text x="78" y="210" class="cls-49"><tspan class="cls-61">using</tspan></text>
+  <text x="111" y="210" class="cls-49"><tspan class="cls-62">System.Threading.Task;</tspan></text>
+</svg>
