@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="850" height="549" viewBox="0 0 850 549">
+  <defs>
+    <style>
+      .cls-1, .cls-14, .cls-15 {
+        fill: #eeeef2;
+      }
+
+      .cls-1 {
+        stroke: #cacace;
+      }
+
+      .cls-1, .cls-14, .cls-15, .cls-18, .cls-19, .cls-20, .cls-8, .cls-9 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-14, .cls-15, .cls-18, .cls-8, .cls-9 {
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-14, .cls-15, .cls-16, .cls-18, .cls-19, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #f5f5f5;
+      }
+
+      .cls-3 {
+        fill: #cccedb;
+      }
+
+      .cls-4 {
+        fill: #dedfe7;
+      }
+
+      .cls-5 {
+        fill: #868999;
+      }
+
+      .cls-23, .cls-6, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #595959;
+      }
+
+      .cls-8 {
+        stroke: #cccedb;
+      }
+
+      .cls-9 {
+        fill: #ddd;
+        stroke: #7f7f7f;
+      }
+
+      .fill-btn {
+        fill: #c4e5f6;
+        stroke: #4d84aa;
+      }
+      
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-17 {
+        font-size: 32.869px;
+      }
+
+      .cls-11, .cls-19 {
+        fill: #404040;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-17, .cls-21, .cls-23 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .cls-12 {
+        fill: #b6b6bb;
+      }
+
+      .cls-13 {
+        fill: #adadb2;
+      }
+
+      .cls-14 {
+        stroke: #595959;
+      }
+
+      .cls-15 {
+        stroke: #adadb2;
+      }
+
+      .cls-16 {
+        fill: #85818e;
+      }
+
+      .cls-17 {
+        fill: #09d;
+      }
+
+      .cls-18 {
+        fill: #f2efef;
+        stroke: #e3dfdf;
+      }
+
+      .cls-19, .cls-20 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-20, .cls-21, .cls-22, .cls-23 {
+        font-size: 23.905px;
+      }
+
+      .cls-21 {
+        fill: #5ec263;
+      }
+    </style>
+  </defs>
+  <path d="M-1.433,0.000 L850.000,0.000 L850.000,549.000 L-1.433,549.000 L-1.433,0.000 Z" class="cls-1"/>
+  <path d="M244.259,66.744 L582.091,66.744 L582.091,409.062 L244.259,409.062 L244.259,66.744 Z" class="cls-2"/>
+  <path d="M244.259,151.763 L560.590,151.763 L560.590,190.555 L244.259,190.555 L244.259,151.763 Z" class="cls-3"/>
+  <path d="M0.000,454.260 L848.925,454.260 L848.925,547.925 L0.000,547.925 L0.000,454.260 Z" class="cls-2"/>
+  <path d="M1.075,61.368 L238.839,61.368 L238.839,89.365 L1.075,89.365 L1.075,61.368 Z" class="cls-3"/>
+  <path d="M220.563,91.515 L238.839,91.515 L238.839,420.888 L220.563,420.888 L220.563,91.515 Z" class="cls-2"/>
+  <path d="M224.863,108.716 L234.538,108.716 L234.538,359.520 L224.863,359.520 L224.863,108.716 Z" class="cls-4"/>
+  <path d="M229.883,97.105 L234.249,104.671 L225.516,104.671 L229.883,97.105 Z" class="cls-5"/>
+  <path d="M567.040,85.020 L576.715,85.020 L576.715,335.868 L567.040,335.868 L567.040,85.020 Z" class="cls-4"/>
+  <path d="M572.035,73.423 L576.401,80.989 L567.668,80.989 L572.035,73.423 Z" class="cls-5"/>
+  <path d="M572.405,403.689 L576.704,396.156 L568.105,396.156 L572.405,403.689 Z" class="cls-5"/>
+  <path d="M230.253,416.607 L234.552,409.074 L225.954,409.074 L230.253,416.607 Z" class="cls-5"/>
+  <path d="M1.433,1.433 L848.567,1.433 L848.567,30.102 L1.433,30.102 L1.433,1.433 Z" class="cls-6"/>
+  <path d="M27.996,99.040 L86.093,99.040 L86.093,120.586 L27.996,120.586 L27.996,99.040 Z" class="cls-3"/>
+  <path d="M23.671,105.494 L23.671,113.029 L16.139,113.029 L23.671,105.494 Z" class="cls-7"/>
+  <path d="M18.291,72.124 L18.291,79.659 L10.759,79.659 L18.291,72.124 Z" class="cls-7"/>
+  <path d="M247.484,39.822 L406.724,39.822 L406.724,59.218 L247.484,59.218 L247.484,39.822 Z" class="cls-8"/>
+  <path d="M142.040,458.560 L556.245,458.560 L556.245,477.956 L142.040,477.956 L142.040,458.560 Z" class="cls-8"/>
+  <path d="M142.040,487.632 L556.245,487.632 L556.245,507.028 L142.040,507.028 L142.040,487.632 Z" class="cls-8"/>
+  <path d="M571.340,484.406 L662.763,484.406 L662.763,508.103 L571.340,508.103 L571.340,484.406 Z" class="cls-9"/>
+  <path d="M755.307,517.778 L836.024,517.778 L836.024,541.475 L755.307,541.475 L755.307,517.778 Z" class="cls-9"/>
+  <path d="M668.183,517.778 L748.856,517.778 L748.856,541.475 L668.183,541.475 L668.183,517.778 Z" class="cls-9"/>
+  <path d="M668.183,517.778 L748.856,517.778 L748.856,541.475 L668.183,541.475 L668.183,517.778 Z" class="fill-btn"/>
+  <path d="M460.521,39.822 L631.587,39.822 L631.587,59.218 L460.521,59.218 L460.521,39.822 Z" class="cls-8"/>
+  <path d="M691.834,38.747 L843.550,38.747 L843.550,60.293 L691.834,60.293 L691.834,38.747 Z" class="cls-8"/>
+  <text transform="translate(300 174) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Console Application</tspan></text>
+  <text transform="translate(483 174) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Visual C#</tspan></text>
+  <text transform="translate(300 135) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">WPF Application</tspan></text>
+  <text transform="translate(29 470) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Name:</tspan></text>
+  <text transform="translate(29 499) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Location:</tspan></text>
+  <text transform="translate(147 471) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">TestConsoleProject</tspan></text>
+  <text transform="translate(148 500) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">C:\Users\Username\Downloads\FDX API-CSharp</tspan></text>
+  <text transform="translate(592 499) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Browse...</tspan></text>
+  <text transform="translate(700 534) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">OK</tspan></text>
+  <text transform="translate(778 534) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Cancel</tspan></text>
+  <text transform="translate(483 135) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Visual C#</tspan></text>
+  <text transform="translate(300 92) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Windows Forms Application</tspan></text>
+  <text transform="translate(605 92) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Type: Visual C#</tspan></text>
+  <text transform="translate(605 116) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">A project for creating a command-line</tspan><tspan dy="1.2em" x="0" class="cls-12">application</tspan></text>
+  <text transform="translate(28 81) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Installed</tspan></text>
+  <text transform="translate(30 114) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Visual C#</tspan></text>
+  <text transform="translate(53 138) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Windows</tspan></text>
+  <text transform="translate(53 158) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Web</tspan></text>
+  <text transform="translate(53 180) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Android</tspan></text>
+  <text transform="translate(53 201) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Cloud</tspan></text>
+  <text transform="translate(53 222) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Extensibilty</tspan></text>
+  <text transform="translate(53 244) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">iOS</tspan></text>
+  <text transform="translate(53 265) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">LightSwitch</tspan></text>
+  <text transform="translate(53 288) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Office/SharePoint</tspan></text>
+  <text transform="translate(53 309) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Silverlight</tspan></text>
+  <text transform="translate(53 331) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Test</tspan></text>
+  <text transform="translate(53 353) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">WCF</tspan></text>
+  <text transform="translate(53 374) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Workflow</tspan></text>
+  <text transform="translate(31 395) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">HDInsight</tspan></text>
+  <path d="M46.269,131.319 L38.745,135.623 L38.745,127.014 L46.269,131.319 Z" class="cls-14"/>
+  <path d="M19.370,47.354 L11.847,51.659 L11.847,43.050 L19.370,47.354 Z" class="cls-14"/>
+  <path d="M46.269,196.984 L38.745,201.288 L38.745,192.679 L46.269,196.984 Z" class="cls-15"/>
+  <text transform="translate(28 439) scale(0.36 0.36)" class="cls-10"><tspan class="cls-13">Online</tspan></text>
+  <path d="M21.522,434.884 L13.998,439.188 L13.998,430.579 L21.522,434.884 Z" class="cls-15"/>
+  <text transform="translate(28 50) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Recent</tspan></text>
+  <text transform="translate(11 19) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Add New Project</tspan></text>
+  <text transform="translate(800 19) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">?</tspan></text>
+  <path d="M826.097,53.543 C825.897,53.744 825.772,54.022 825.772,54.328 C825.772,54.941 826.269,55.438 826.883,55.438 C827.189,55.438 827.467,55.314 827.668,55.113 L827.668,55.113 L830.921,51.860 C831.582,52.250 832.351,52.478 833.174,52.478 C835.626,52.478 837.615,50.490 837.615,48.038 C837.615,45.585 835.626,43.597 833.174,43.597 C830.721,43.597 828.733,45.585 828.733,48.038 C828.733,48.861 828.961,49.629 829.351,50.290 L826.097,53.543 L826.097,53.543 ZM833.174,44.707 C835.013,44.707 836.504,46.198 836.504,48.038 C836.504,49.877 835.013,51.368 833.174,51.368 C831.334,51.368 829.843,49.877 829.843,48.038 C829.843,46.198 831.334,44.707 833.174,44.707 Z" class="cls-16"/>
+  <text transform="translate(831 18) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">x</tspan></text>
+  <text transform="translate(483 92) scale(0.36 0.36)" class="cls-10"><tspan class="cls-11">Visual C#</tspan></text>
+  <text transform="translate(300 262) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Shared Project</tspan></text>
+  <text transform="translate(483 262) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Visual C#</tspan></text>
+  <text transform="translate(300 219) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">ASP.NET Web Applicaion</tspan></text>
+  <text transform="translate(483 219) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Visual C#</tspan></text>
+  <text transform="translate(300 302) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Class Library (Package)</tspan></text>
+  <text transform="translate(483 302) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Visual C#</tspan></text>
+  <text transform="translate(300 388) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Class Library</tspan></text>
+  <text transform="translate(296 435) scale(0.36 0.36)" class="cls-10"><tspan class="cls-17">Click here to go online and find templates.</tspan></text>
+  <text transform="translate(483 388) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Visual C#</tspan></text>
+  <text transform="translate(300 345) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Console Application (Package)</tspan></text>
+  <text transform="translate(483 345) scale(0.36 0.36)" class="cls-10"><tspan class="cls-12">Visual C#</tspan></text>
+  <path d="M281.643,227.135 L256.339,227.135 C255.616,227.135 255.030,226.567 255.030,225.867 L255.030,204.722 C255.030,204.021 255.616,203.453 256.339,203.453 L281.643,203.453 C282.365,203.453 282.951,204.021 282.951,204.722 L282.951,225.867 C282.951,226.567 282.365,227.135 281.643,227.135 Z" class="cls-18"/>
+  <path d="M281.643,270.194 L256.339,270.194 C255.616,270.194 255.030,269.626 255.030,268.926 L255.030,247.780 C255.030,247.080 255.616,246.512 256.339,246.512 L281.643,246.512 C282.365,246.512 282.951,247.080 282.951,247.780 L282.951,268.926 C282.951,269.626 282.365,270.194 281.643,270.194 Z" class="cls-18"/>
+  <path d="M281.643,101.188 L256.339,101.188 C255.616,101.188 255.030,100.620 255.030,99.920 L255.030,78.775 C255.030,78.074 255.616,77.506 256.339,77.506 L281.643,77.506 C282.365,77.506 282.951,78.074 282.951,78.775 L282.951,99.920 C282.951,100.620 282.365,101.188 281.643,101.188 Z" class="cls-18"/>
+  <path d="M281.643,144.247 L256.339,144.247 C255.616,144.247 255.030,143.679 255.030,142.978 L255.030,121.833 C255.030,121.133 255.616,120.565 256.339,120.565 L281.643,120.565 C282.365,120.565 282.951,121.133 282.951,121.833 L282.951,142.978 C282.951,143.679 282.365,144.247 281.643,144.247 Z" class="cls-18"/>
+  <path d="M281.643,312.177 L256.339,312.177 C255.616,312.177 255.030,311.608 255.030,310.908 L255.030,289.763 C255.030,289.062 255.616,288.494 256.339,288.494 L281.643,288.494 C282.365,288.494 282.951,289.062 282.951,289.763 L282.951,310.908 C282.951,311.608 282.365,312.177 281.643,312.177 Z" class="cls-18"/>
+  <path d="M281.643,355.235 L256.339,355.235 C255.616,355.235 255.030,354.667 255.030,353.967 L255.030,332.822 C255.030,332.121 255.616,331.553 256.339,331.553 L281.643,331.553 C282.365,331.553 282.951,332.121 282.951,332.822 L282.951,353.967 C282.951,354.667 282.365,355.235 281.643,355.235 Z" class="cls-18"/>
+  <path d="M281.643,397.218 L256.339,397.218 C255.616,397.218 255.030,396.650 255.030,395.949 L255.030,374.804 C255.030,374.103 255.616,373.535 256.339,373.535 L281.643,373.535 C282.365,373.535 282.951,374.103 282.951,374.804 L282.951,395.949 C282.951,396.650 282.365,397.218 281.643,397.218 Z" class="cls-18"/>
+  <path d="M281.643,184.077 L256.339,184.077 C255.616,184.077 255.030,183.508 255.030,182.808 L255.030,161.663 C255.030,160.962 255.616,160.394 256.339,160.394 L281.643,160.394 C282.365,160.394 282.951,160.962 282.951,161.663 L282.951,182.808 C282.951,183.508 282.365,184.077 281.643,184.077 Z" class="cls-19"/>
+  <path d="M279.747,165.776 L279.747,166.853 L257.152,166.853 L257.152,165.776 L279.747,165.776 Z" class="cls-6"/>
+  <text transform="translate(272 165) scale(0.36 0.36)" class="cls-20"><tspan class="cls-21">C#</tspan></text>
+  <text transform="translate(258 176) scale(0.36 0.36)" class="cls-22"><tspan class="cls-23">C:\</tspan></text>
+</svg>
