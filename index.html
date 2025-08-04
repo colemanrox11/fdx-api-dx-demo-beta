@@ -41,6 +41,51 @@
             font-weight: bold;
         }
         
+        .nav {
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .nav a.active {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .content-area {
+            display: none;
+            padding: 2rem;
+            background: white;
+            margin: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .content-area.active {
+            display: block;
+        }
+        
+        .content-area h1 {
+            color: #1a2233;
+            margin-bottom: 1rem;
+        }
+        
+        .content-area p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
         .main-content {
             height: calc(100vh - 70px);
             width: 100%;
@@ -58,30 +103,93 @@
             <img src="static/images/logo.png" alt="FDX Logo" onerror="this.style.display='none'">
             <span class="logo-text">FDX Developer Portal</span>
         </div>
+        <nav class="nav">
+            <a href="#" class="nav-link" data-target="get-started">Get Started</a>
+            <a href="#" class="nav-link" data-target="api-keys">Get API Keys</a>
+            <a href="#" class="nav-link" data-target="spec-docs">Specification Docs</a>
+            <a href="#" class="nav-link" data-target="community">Community</a>
+        </nav>
     </header>
     
     <main class="main-content">
-        <div id="apimatic-widget"></div>
+        <!-- Get Started Content -->
+        <div id="get-started" class="content-area active">
+            <h1>Get Started</h1>
+            <p>Welcome to the FDX Developer Portal! This is your starting point for integrating with the Financial Data Exchange API.</p>
+            <p>Use the navigation above to explore different sections of the portal:</p>
+            <ul>
+                <li><strong>Get API Keys:</strong> Learn how to obtain your access tokens</li>
+                <li><strong>Specification Docs:</strong> Explore the API documentation</li>
+                <li><strong>Community:</strong> Connect with other developers</li>
+            </ul>
+        </div>
+        
+        <!-- API Keys Content -->
+        <div id="api-keys" class="content-area">
+            <h1>Get API Keys</h1>
+            <p>Learn how to obtain your access tokens for the FDX API.</p>
+            <a href="https://versioning.fdx-poc-apimatic.pages.dev/v/6.0.2/#/http/quickstart/self-service-get-an-access-token" target="_blank" style="display: inline-block; background: #009687; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin-top: 1rem;">View API Keys Documentation</a>
+        </div>
+        
+        <!-- Specification Docs Content -->
+        <div id="spec-docs" class="content-area">
+            <h1>Specification Docs</h1>
+            <p>Explore the comprehensive API documentation and specifications.</p>
+            <a href="https://versioning.fdx-poc-apimatic.pages.dev/v/6.0.2/#/http/quickstart/overview" target="_blank" style="display: inline-block; background: #009687; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin-top: 1rem;">View Specification Documentation</a>
+        </div>
+        
+        <!-- Community Content -->
+        <div id="community" class="content-area">
+            <h1>Community</h1>
+            <p>Connect with other developers and get support for your FDX integration.</p>
+            <p>This section will contain community resources, forums, and developer support information.</p>
+        </div>
+        
+        <!-- APIMatic Portal Widget -->
+        <div id="apimatic-widget" style="display: none;"></div>
     </main>
+
+    <!-- Navigation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const contentAreas = document.querySelectorAll('.content-area');
+            const apimaticWidget = document.getElementById('apimatic-widget');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all nav links and content areas
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    contentAreas.forEach(area => area.classList.remove('active'));
+                    
+                    // Add active class to clicked link
+                    this.classList.add('active');
+                    
+                    // Show corresponding content area
+                    const target = this.getAttribute('data-target');
+                    const targetArea = document.getElementById(target);
+                    
+                    if (targetArea) {
+                        targetArea.classList.add('active');
+                    }
+                    
+                    // Hide APIMatic widget when showing custom content
+                    if (apimaticWidget) {
+                        apimaticWidget.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Set "Get Started" as active by default
+            document.querySelector('[data-target="get-started"]').classList.add('active');
+        });
+    </script>
 
     <!-- APIMatic Portal Scripts -->
     <script defer src="https://dxjs.apimatic.io/v7/static/js/portal.v7.js"></script>
     <script defer src="static/js/portal.js"></script>
-    <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            APIMaticDevPortal.ready(({ registerWorkflow }) => {
-                registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);
-            });
-        });
-    </script>
-    <script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            APIMaticDevPortal.ready(({ registerWorkflow }) => {
-                registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough);
-            });
-        });
-    </script>
+    <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);});});</script><script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough );});});</script>
 </body>
 </html> 
