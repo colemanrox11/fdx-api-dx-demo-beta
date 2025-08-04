@@ -39,6 +39,12 @@
         .logo-text {
             font-size: 1.5rem;
             font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        
+        .logo-text:hover {
+            opacity: 0.8;
         }
         
         .nav {
@@ -86,6 +92,75 @@
             line-height: 1.6;
         }
         
+        .card-container {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: stretch;
+            margin-top: 2rem;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            flex: 1;
+            max-width: 400px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .card h2 {
+            color: #1a2233;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .card p {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn-primary {
+            background: #009687;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #007a6e;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+            transform: translateY(-1px);
+        }
+        
         .main-content {
             height: calc(100vh - 70px);
             width: 100%;
@@ -101,7 +176,7 @@
     <header class="header">
         <div class="logo">
             <img src="static/images/logo.png" alt="FDX Logo" onerror="this.style.display='none'">
-            <span class="logo-text">FDX Developer Portal</span>
+            <span class="logo-text" id="home-link">Financial Data Exchange</span>
         </div>
         <nav class="nav">
             <a href="#" class="nav-link" data-target="get-started">Get Started</a>
@@ -112,8 +187,28 @@
     </header>
     
     <main class="main-content">
+        <!-- Home Content -->
+        <div id="home" class="content-area active">
+            <h1>Welcome to Financial Data Exchange</h1>
+            <p>Choose your path to get started with the FDX API. Whether you're a member looking to integrate or an observer wanting to explore the specifications, we have the resources you need.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h2>Members</h2>
+                    <p>Ready to integrate with the FDX API? Get started with your implementation and access the full developer portal.</p>
+                    <a href="#" class="btn btn-primary" id="get-started-btn">Get Started</a>
+                </div>
+                
+                <div class="card">
+                    <h2>Observers</h2>
+                    <p>Interested in exploring the FDX specifications? Download the API documentation to understand the data exchange standards.</p>
+                    <a href="https://versioning.fdx-poc-apimatic.pages.dev/v/6.0.2/#/http/quickstart/overview" target="_blank" class="btn btn-secondary">Download Spec</a>
+                </div>
+            </div>
+        </div>
+        
         <!-- Get Started Content -->
-        <div id="get-started" class="content-area active">
+        <div id="get-started" class="content-area">
             <h1>Get Started</h1>
             <p>Welcome to the FDX Developer Portal! This is your starting point for integrating with the Financial Data Exchange API.</p>
             <p>Use the navigation above to explore different sections of the portal:</p>
@@ -155,35 +250,59 @@
             const navLinks = document.querySelectorAll('.nav-link');
             const contentAreas = document.querySelectorAll('.content-area');
             const apimaticWidget = document.getElementById('apimatic-widget');
+            const homeLink = document.getElementById('home-link');
+            const getStartedBtn = document.getElementById('get-started-btn');
             
+            // Function to show content area
+            function showContent(targetId) {
+                // Remove active class from all nav links and content areas
+                navLinks.forEach(l => l.classList.remove('active'));
+                contentAreas.forEach(area => area.classList.remove('active'));
+                
+                // Show target content area
+                const targetArea = document.getElementById(targetId);
+                if (targetArea) {
+                    targetArea.classList.add('active');
+                }
+                
+                // Hide APIMatic widget when showing custom content
+                if (apimaticWidget) {
+                    apimaticWidget.style.display = 'none';
+                }
+            }
+            
+            // Home link click handler
+            homeLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                showContent('home');
+            });
+            
+            // Get Started button click handler
+            getStartedBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                showContent('get-started');
+                document.querySelector('[data-target="get-started"]').classList.add('active');
+            });
+            
+            // Navigation links click handler
             navLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     
-                    // Remove active class from all nav links and content areas
+                    // Remove active class from all nav links
                     navLinks.forEach(l => l.classList.remove('active'));
-                    contentAreas.forEach(area => area.classList.remove('active'));
                     
                     // Add active class to clicked link
                     this.classList.add('active');
                     
                     // Show corresponding content area
                     const target = this.getAttribute('data-target');
-                    const targetArea = document.getElementById(target);
-                    
-                    if (targetArea) {
-                        targetArea.classList.add('active');
-                    }
-                    
-                    // Hide APIMatic widget when showing custom content
-                    if (apimaticWidget) {
-                        apimaticWidget.style.display = 'none';
-                    }
+                    showContent(target);
                 });
             });
             
-            // Set "Get Started" as active by default
-            document.querySelector('[data-target="get-started"]').classList.add('active');
+            // Set "Home" as active by default
+            showContent('home');
         });
     </script>
 
