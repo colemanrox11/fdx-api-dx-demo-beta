@@ -243,16 +243,12 @@
         
         <!-- API Keys Content -->
         <div id="api-keys" class="content-area">
-            <h1>Get API Keys</h1>
-            <p>Learn how to obtain your access tokens for the FDX API.</p>
-            <a href="https://versioning.fdx-poc-apimatic.pages.dev/v/6.0.2/#/http/quickstart/self-service-get-an-access-token" target="_blank" style="display: inline-block; background: #009687; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin-top: 1rem;">View API Keys Documentation</a>
+            <!-- Empty placeholder for APIMatic widget -->
         </div>
         
         <!-- Specification Docs Content -->
         <div id="spec-docs" class="content-area">
-            <h1>Specification Docs</h1>
-            <p>Explore the comprehensive API documentation and specifications.</p>
-            <a href="https://versioning.fdx-poc-apimatic.pages.dev/v/6.0.2/#/http/quickstart/overview" target="_blank" style="display: inline-block; background: #009687; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; margin-top: 1rem;">View Specification Documentation</a>
+            <!-- Empty placeholder for APIMatic widget -->
         </div>
         
         <!-- Community Content -->
@@ -287,9 +283,17 @@
                     targetArea.classList.add('active');
                 }
                 
-                // Hide APIMatic widget when showing custom content
+                // Show APIMatic widget for specific pages, hide for others
                 if (apimaticWidget) {
-                    apimaticWidget.style.display = 'none';
+                    if (targetId === 'api-keys' || targetId === 'spec-docs') {
+                        apimaticWidget.style.display = 'block';
+                        // Hide the content area since we're showing the widget
+                        if (targetArea) {
+                            targetArea.classList.remove('active');
+                        }
+                    } else {
+                        apimaticWidget.style.display = 'none';
+                    }
                 }
             }
             
