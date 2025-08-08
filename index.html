@@ -43,13 +43,13 @@
             transition: opacity 0.2s;
         }
         
-        .logo-text:hover {
-            opacity: 0.8;
-        }
+        .logo-text:hover { opacity: 0.8; }
         
         .nav {
             display: flex;
             gap: 2rem;
+            align-items: center;
+            position: relative;
         }
         
         .nav a {
@@ -60,15 +60,33 @@
             border-radius: 4px;
             transition: background-color 0.2s;
         }
-        
-        .nav a:hover {
-            background-color: rgba(255, 255, 255, 0.1);
+        .nav a:hover { background-color: rgba(255, 255, 255, 0.1); }
+        .nav a.active { background-color: rgba(255, 255, 255, 0.2); }
+
+        /* Dropdown under Specification Docs */
+        .dropdown { position: relative; }
+        .dropdown-panel {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #2a3147;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 6px;
+            min-width: 160px;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+            z-index: 1000;
         }
-        
-        .nav a.active {
-            background-color: rgba(255, 255, 255, 0.2);
+        .dropdown:hover .dropdown-panel { display: block; }
+        .dropdown-panel a {
+            display: block;
+            color: #fff;
+            padding: 0.6rem 1rem;
+            white-space: nowrap;
         }
-        
+        .dropdown-panel a:hover { background: rgba(255,255,255,0.1); }
+        .dropdown-title { color: #b8bfcc; font-size: 0.75rem; padding: 0.4rem 1rem 0.2rem; }
+
         .content-area {
             display: none;
             padding: 2rem;
@@ -77,99 +95,29 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        
-        .content-area.active {
-            display: block;
-        }
-        
-        .content-area h1 {
-            color: #1a2233;
-            margin-bottom: 1rem;
-        }
-        
-        .content-area p {
-            color: #666;
-            line-height: 1.6;
-        }
-        
-        .card-container {
-            display: flex;
-            gap: 2rem;
-            justify-content: center;
-            align-items: stretch;
-            margin-top: 2rem;
-        }
-        
+        .content-area.active { display: block; }
+        .content-area h1 { color: #1a2233; margin-bottom: 1rem; }
+        .content-area p { color: #666; line-height: 1.6; }
+
+        .card-container { display: flex; gap: 2rem; justify-content: center; align-items: stretch; margin-top: 2rem; }
         .card {
-            background: white;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            flex: 1;
-            max-width: 400px;
-            text-align: center;
-            border: 2px solid transparent;
-            transition: all 0.3s ease;
+            background: white; border-radius: 8px; padding: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            flex: 1; max-width: 400px; text-align: center; border: 2px solid transparent; transition: all 0.3s ease;
         }
-        
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-        }
-        
-        .card h2 {
-            color: #1a2233;
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
-        }
-        
-        .card p {
-            color: #666;
-            margin-bottom: 2rem;
-            line-height: 1.6;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: 500;
-            transition: all 0.2s;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-        
-        .btn-primary {
-            background: #009687;
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            background: #007a6e;
-            transform: translateY(-1px);
-        }
-        
-        .btn-secondary {
-            background: #6c757d;
-            color: white;
-        }
-        
-        .btn-secondary:hover {
-            background: #5a6268;
-            transform: translateY(-1px);
-        }
-        
-        .main-content {
-            height: calc(100vh - 70px);
-            width: 100%;
-        }
-        
-        #apimatic-widget {
-            height: 100%;
-            width: 100%;
-        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        .card h2 { color: #1a2233; margin-bottom: 1rem; font-size: 1.5rem; }
+        .card p { color: #666; margin-bottom: 2rem; line-height: 1.6; }
+
+        .btn { display: inline-block; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; font-weight: 500; transition: all 0.2s; border: none; cursor: pointer; font-size: 1rem; }
+        .btn-primary { background: #009687; color: white; }
+        .btn-primary:hover { background: #007a6e; transform: translateY(-1px); }
+        .btn-secondary { background: #6c757d; color: white; }
+        .btn-secondary:hover { background: #5a6268; transform: translateY(-1px); }
+
+        .main-content { height: calc(100vh - 70px); width: 100%; }
+        #apimatic-widget { height: 100%; width: 100%; }
+        .portal-container { height: calc(100vh - 70px); width: 100%; background: #0c0f17; }
+        .portal-container iframe { width: 100%; height: 100%; border: none; display: block; }
     </style>
 </head>
 <body>
@@ -181,7 +129,14 @@
         <nav class="nav">
             <a href="#" class="nav-link" data-target="get-started">Get Started</a>
             <a href="#" class="nav-link" data-target="api-keys">Get API Keys</a>
-            <a href="#" class="nav-link" data-target="spec-docs">Specification Docs</a>
+            <div class="dropdown" id="spec-docs-dropdown">
+                <a href="#" class="nav-link" data-target="spec-docs">Specification Docs</a>
+                <div class="dropdown-panel" aria-label="Select version">
+                    <div class="dropdown-title">Open version</div>
+                    <a href="#" class="version-option" data-version="6.0.2">6.0.2 (latest)</a>
+                    <a href="#" class="version-option" data-version="6.0.0">6.0.0</a>
+                </div>
+            </div>
             <a href="#" class="nav-link" data-target="community">Community</a>
         </nav>
     </header>
@@ -246,10 +201,8 @@
             <!-- Empty placeholder for APIMatic widget -->
         </div>
         
-        <!-- Specification Docs Content -->
-        <div id="spec-docs" class="content-area">
-            <!-- Empty placeholder for APIMatic widget -->
-        </div>
+        <!-- Specification Docs Content (placeholder to keep structure consistent) -->
+        <div id="spec-docs" class="content-area"></div>
         
         <!-- Community Content -->
         <div id="community" class="content-area">
@@ -258,8 +211,13 @@
             <p>This section will contain community resources, forums, and developer support information.</p>
         </div>
         
-        <!-- APIMatic Portal Widget -->
+        <!-- APIMatic Portal Widget (used only for API Keys if needed) -->
         <div id="apimatic-widget" style="display: none;"></div>
+        
+        <!-- Embedded APIMatic portal -->
+        <div id="portal-container" class="portal-container" style="display: none;">
+            <iframe id="apimatic-iframe" src="v/6.0.2/index.html"></iframe>
+        </div>
     </main>
 
     <!-- Navigation Script -->
@@ -268,66 +226,74 @@
             const navLinks = document.querySelectorAll('.nav-link');
             const contentAreas = document.querySelectorAll('.content-area');
             const apimaticWidget = document.getElementById('apimatic-widget');
+            const portalContainer = document.getElementById('portal-container');
+            const apimaticIframe = document.getElementById('apimatic-iframe');
             const homeLink = document.getElementById('home-link');
             const getStartedBtn = document.getElementById('get-started-btn');
-            
-            // Function to show content area
-            function showContent(targetId) {
-                // Remove active class from all nav links and content areas
+            const specDocsDropdown = document.getElementById('spec-docs-dropdown');
+
+            function hideAllContent() {
                 navLinks.forEach(l => l.classList.remove('active'));
                 contentAreas.forEach(area => area.classList.remove('active'));
-                
-                // Show target content area
+                if (portalContainer) portalContainer.style.display = 'none';
+                if (apimaticWidget) apimaticWidget.style.display = 'none';
+            }
+
+            function showContent(targetId) {
+                hideAllContent();
                 const targetArea = document.getElementById(targetId);
-                if (targetArea) {
-                    targetArea.classList.add('active');
-                }
-                
-                // Show APIMatic widget for specific pages, hide for others
-                if (apimaticWidget) {
-                    if (targetId === 'api-keys' || targetId === 'spec-docs') {
-                        apimaticWidget.style.display = 'block';
-                        // Hide the content area since we're showing the widget
-                        if (targetArea) {
-                            targetArea.classList.remove('active');
-                        }
-                    } else {
-                        apimaticWidget.style.display = 'none';
-                    }
+                if (targetArea) targetArea.classList.add('active');
+                // Only show the APIMatic widget on api-keys if you plan to use it; keep it hidden for spec-docs
+                if (apimaticWidget && targetId === 'api-keys') {
+                    apimaticWidget.style.display = 'block';
+                    if (targetArea) targetArea.classList.remove('active');
                 }
             }
-            
-            // Home link click handler
-            homeLink.addEventListener('click', function(e) {
+
+            function showAPIMaticPortal(version) {
+                hideAllContent();
+                portalContainer.style.display = 'block';
+                apimaticIframe.src = `v/${version}/index.html`;
+                // Mark spec-docs as active in the nav
+                const specLink = specDocsDropdown.querySelector('[data-target="spec-docs"]');
+                specLink.classList.add('active');
+            }
+
+            // Click on main "Specification Docs" opens latest version by default
+            specDocsDropdown.querySelector('[data-target="spec-docs"]').addEventListener('click', function(e) {
                 e.preventDefault();
-                showContent('home');
+                showAPIMaticPortal('6.0.2');
             });
-            
-            // Get Started button click handler
-            getStartedBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                showContent('get-started');
-                document.querySelector('[data-target="get-started"]').classList.add('active');
-            });
-            
-            // Navigation links click handler
-            navLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
+            // Click handlers for version entries in the dropdown
+            specDocsDropdown.querySelectorAll('.version-option').forEach(item => {
+                item.addEventListener('click', function(e) {
                     e.preventDefault();
-                    
-                    // Remove active class from all nav links
-                    navLinks.forEach(l => l.classList.remove('active'));
-                    
-                    // Add active class to clicked link
-                    this.classList.add('active');
-                    
-                    // Show corresponding content area
-                    const target = this.getAttribute('data-target');
-                    showContent(target);
+                    const version = this.getAttribute('data-version');
+                    showAPIMaticPortal(version);
                 });
             });
-            
-            // Set "Home" as active by default
+
+            // Other nav handlers
+            homeLink.addEventListener('click', function(e) { e.preventDefault(); showContent('home'); });
+            if (getStartedBtn) {
+                getStartedBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showContent('get-started');
+                    document.querySelector('[data-target="get-started"]').classList.add('active');
+                });
+            }
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Spec docs handled above
+                    if (this.getAttribute('data-target') === 'spec-docs') return;
+                    e.preventDefault();
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                    showContent(this.getAttribute('data-target'));
+                });
+            });
+
+            // Default to Home
             showContent('home');
         });
     </script>
