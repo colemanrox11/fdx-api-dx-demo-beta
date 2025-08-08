@@ -128,7 +128,7 @@
         </div>
         <nav class="nav">
             <a href="#" class="nav-link" data-target="get-started">Get Started</a>
-            <a href="#" class="nav-link" data-target="api-keys">Get API Keys</a>
+            <a href="https://colemanrox11.github.io/fdx-api-dx-demo-beta/v/6.0.2/index.html#/http/quickstart/self-service-get-an-access-token" target="_blank" class="nav-link" data-target="api-keys">Get API Keys</a>
             <div class="dropdown" id="spec-docs-dropdown">
                 <a href="#" class="nav-link" data-target="spec-docs">Specification Docs</a>
                 <div class="dropdown-panel" aria-label="Select version">
@@ -286,6 +286,13 @@
                 link.addEventListener('click', function(e) {
                     // Spec docs handled above
                     if (this.getAttribute('data-target') === 'spec-docs') return;
+                    
+                    // Handle external link for API Keys
+                    if (this.getAttribute('data-target') === 'api-keys') {
+                        // Don't prevent default for external links
+                        return;
+                    }
+                    
                     e.preventDefault();
                     navLinks.forEach(l => l.classList.remove('active'));
                     this.classList.add('active');
@@ -304,3 +311,4 @@
     <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);});});</script><script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough );});});</script>
 </body>
 </html> 
+
