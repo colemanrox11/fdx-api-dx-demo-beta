@@ -157,7 +157,7 @@
                 <div class="card">
                     <h2>Observers</h2>
                     <p>Interested in exploring the FDX specifications? Download the API documentation to understand the data exchange standards.</p>
-                    <a href="https://versioning.fdx-poc-apimatic.pages.dev/v/6.0.2/#/http/quickstart/overview" target="_blank" class="btn btn-secondary">Download Spec</a>
+                    <a href="#" class="btn btn-secondary" id="observers-btn">Download Spec</a>
                 </div>
             </div>
         </div>
@@ -201,6 +201,27 @@
         <!-- Specification Docs Content (placeholder to keep structure consistent) -->
         <div id="spec-docs" class="content-area"></div>
         
+        <!-- Observers Content -->
+        <div id="observers" class="content-area">
+            <h1>Download FDX Specifications</h1>
+            <p>Select a version of the FDX API specification to download and explore locally.</p>
+            
+            <div style="max-width: 500px; margin: 2rem auto; padding: 2rem; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="version-select" style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: #1a2233;">Select Version:</label>
+                    <select id="version-select" style="width: 100%; padding: 0.75rem; border: 1px solid #ced4da; border-radius: 4px; font-size: 1rem; background: white;">
+                        <option value="">Choose a version...</option>
+                        <option value="6.0.2">v6.0.2 (latest)</option>
+                        <option value="6.0.0">v6.0.0</option>
+                    </select>
+                </div>
+                
+                <button id="download-btn" class="btn btn-primary" style="width: 100%;" disabled>Download Specification</button>
+                
+                <div id="download-status" style="margin-top: 1rem; padding: 0.75rem; border-radius: 4px; display: none;"></div>
+            </div>
+        </div>
+        
         <!-- Community Content -->
         <div id="community" class="content-area">
             <h1>Community</h1>
@@ -227,6 +248,7 @@
             const apimaticIframe = document.getElementById('apimatic-iframe');
             const homeLink = document.getElementById('home-link');
             const getStartedBtn = document.getElementById('get-started-btn');
+            const observersBtn = document.getElementById('observers-btn');
             const specDocsDropdown = document.getElementById('spec-docs-dropdown');
 
             function hideAllContent() {
@@ -286,6 +308,13 @@
                     e.preventDefault();
                     showContent('get-started');
                     document.querySelector('[data-target="get-started"]').classList.add('active');
+                });
+            }
+            
+            if (observersBtn) {
+                observersBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showContent('observers');
                 });
             }
             navLinks.forEach(link => {
@@ -352,6 +381,60 @@
 
             // Default to Home
             showContent('home');
+            
+            // Observers page functionality
+            const versionSelect = document.getElementById('version-select');
+            const downloadBtn = document.getElementById('download-btn');
+            const downloadStatus = document.getElementById('download-status');
+            
+            if (versionSelect && downloadBtn) {
+                versionSelect.addEventListener('change', function() {
+                    downloadBtn.disabled = !this.value;
+                });
+                
+                downloadBtn.addEventListener('click', function() {
+                    const selectedVersion = versionSelect.value;
+                    if (!selectedVersion) return;
+                    
+                    // Show loading state
+                    downloadBtn.textContent = 'Downloading...';
+                    downloadBtn.disabled = true;
+                    downloadStatus.style.display = 'block';
+                    downloadStatus.style.background = '#e3f2fd';
+                    downloadStatus.style.color = '#1976d2';
+                    downloadStatus.style.border = '1px solid #bbdefb';
+                    downloadStatus.textContent = `Preparing download for v${selectedVersion}...`;
+                    
+                    // Create download link
+                    const downloadUrl = `v/${selectedVersion}/index.html`;
+                    const link = document.createElement('a');
+                    link.href = downloadUrl;
+                    link.download = `fdx-specification-v${selectedVersion}.html`;
+                    link.style.display = 'none';
+                    document.body.appendChild(link);
+                    
+                    // Trigger download
+                    setTimeout(() => {
+                        link.click();
+                        document.body.removeChild(link);
+                        
+                        // Update status
+                        downloadStatus.style.background = '#e8f5e8';
+                        downloadStatus.style.color = '#2e7d32';
+                        downloadStatus.style.border = '1px solid #c8e6c9';
+                        downloadStatus.textContent = `Download completed for v${selectedVersion}!`;
+                        
+                        // Reset button
+                        downloadBtn.textContent = 'Download Specification';
+                        downloadBtn.disabled = false;
+                        
+                        // Hide status after 3 seconds
+                        setTimeout(() => {
+                            downloadStatus.style.display = 'none';
+                        }, 3000);
+                    }, 1000);
+                });
+            }
         });
     </script>
 
