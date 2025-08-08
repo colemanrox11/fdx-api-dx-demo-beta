@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FDX 6.0.2</title>
+    <link rel="shortcut icon" href="static/images/favicon.png">
+    <link href="../../static/css/portal.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    <div class="hosted-api-docs">
+        <div id="apimatic-widget" style="height: 100vh; width: 100%;"></div>
+    </div>
+    
+    <script defer src="https://dxjs.apimatic.io/v7/static/js/portal.v7.js"></script>
+    <script defer src="static/js/portal.js"></script>
+    <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);});});</script><script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough );});});</script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Listen for version change messages from parent
+            window.addEventListener('message', function(event) {
+                if (event.data && event.data.type === 'version-change') {
+                    // Handle version change if needed
+                    console.log('Version changed to:', event.data.version);
+                }
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
