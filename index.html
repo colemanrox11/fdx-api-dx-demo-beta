@@ -167,24 +167,21 @@
             <h1>What is FDX</h1>
             <p>FDX provides standard for safe, secure, interoperable data exchange between Data Providers and Third Parties, specifically through the following specifications:</p>
             <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
-                <li><strong>API Data Format</strong> <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-data-format" style="color: #009687; text-decoration: none;">API Data Format</a></li>
-                <li><strong>User Experience</strong> <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="user-experience" style="color: #009687; text-decoration: none;">User Experience</a></li>
-                <li><strong>API Security</strong> <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-security" style="color: #009687; text-decoration: none;">API Security</a></li>
+                <li><strong>API Data Format</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-data-format" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>User Experience</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="user-experience" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>API Security</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-security" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
             </ul>
 
             <h1 style="margin-top: 3rem;">How can FDX be used?</h1>
             <p>With FDX, you can access or provide access to standardized financial data via our API format for common use cases:</p>
             <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
-                <li><strong>Account Information</strong> – Account types, ownership, and status</li>
-                <li><strong>Balances</strong> – Real-time or historical account balances</li>
-                <li><strong>Transactions</strong> – Categorized transaction histories across account types</li>
-                <li><strong>Customer Profiles</strong> – End-user information and associated relationships</li>
-                <li><strong>Statements</strong> – Monthly or periodic account statements</li>
-                <li><strong>Investments</strong> – Positions, holdings, and performance metrics</li>
-                <li><strong>Loans & Liabilities</strong> – Credit cards, mortgages, student loans, and more</li>
-                <li><strong>Tax</strong> - Retrieve, create, or update tax forms for customers.</li>
-                <li><strong>Payroll</strong> - Retrieve employee payroll reports.</li>
-                <li><strong>Money Movement</strong> - Retrieve and create payment, payee, payment initiation, and account-to-account transfer data</li>
+                <li><strong>Account Information</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="account-information" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>Transactions</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="account-transactions" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>Customer Profiles</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="personal-information" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>Statements</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="account-statements" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>Tax</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="tax-forms" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>Payroll</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="payroll-information" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
+                <li><strong>Money Movement</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="money-movement" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
             </ul>
             <p style="margin-top: 1rem; color: #666; line-height: 1.6;">FDX supports both Data Recipients and Data Providers, using secure tokenized authentication flows and a shared data model defined by working groups focused on API, Security, and UX standards.</p>
 
@@ -321,8 +318,31 @@
                     hideAllContent();
                     portalContainer.style.display = 'block';
                     
-                    // Set the iframe source to the specific documentation section
-                    apimaticIframe.src = `v/${version}/index.html#/http/api-reference/api-endpoints/user-consent/get-consent-grant`;
+                    // Set the iframe source to the specific documentation section based on data-section
+                    let targetUrl = `v/${version}/index.html`;
+                    if (section === 'api-data-format') {
+                        targetUrl += '#/http/api-reference/api-endpoints/user-consent/get-consent-grant';
+                    } else if (section === 'user-experience') {
+                        targetUrl += '#/http/user-experience/ux-guidelines-v2-2';
+                    } else if (section === 'api-security') {
+                        targetUrl += '#/http/security/fdx-api-security-model-v4-1';
+                    } else if (section === 'account-information') {
+                        targetUrl += '#/http/api-reference/api-endpoints/account-information/search-for-accounts';
+                    } else if (section === 'account-transactions') {
+                        targetUrl += '#/http/api-reference/api-endpoints/account-transactions/search-for-account-transactions';
+                    } else if (section === 'personal-information') {
+                        targetUrl += '#/http/api-reference/api-endpoints/personal-information/get-customers';
+                    } else if (section === 'account-statements') {
+                        targetUrl += '#/http/api-reference/api-endpoints/account-statements/search-for-account-statements';
+                    } else if (section === 'tax-forms') {
+                        targetUrl += '#/http/api-reference/api-endpoints/tax-forms/search-for-tax-forms';
+                    } else if (section === 'payroll-information') {
+                        targetUrl += '#/http/api-reference/api-endpoints/payroll-information/get-payroll-reports';
+                    } else if (section === 'money-movement') {
+                        targetUrl += '#/http/api-reference/api-endpoints/money-movement/get-account-payment-networks';
+                    }
+                    
+                    apimaticIframe.src = targetUrl;
                     
                     // Mark the "Specification Docs" as active in navigation
                     const specLink = specDocsDropdown.querySelector('[data-target="spec-docs"]');
