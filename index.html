@@ -128,7 +128,7 @@
         </div>
         <nav class="nav">
             <a href="#" class="nav-link" data-target="get-started">Get Started</a>
-            <a href="https://colemanrox11.github.io/fdx-api-dx-demo-beta/v/6.0.2/index.html#/http/quickstart/self-service-get-an-access-token" target="_blank" class="nav-link" data-target="api-keys">Get API Keys</a>
+            <a href="#" class="nav-link" data-target="api-keys">Get API Keys</a>
             <div class="dropdown" id="spec-docs-dropdown">
                 <a href="#" class="nav-link" data-target="spec-docs">Specification Docs</a>
                 <div class="dropdown-panel" aria-label="Select version">
@@ -198,7 +198,7 @@
         
         <!-- API Keys Content -->
         <div id="api-keys" class="content-area">
-            <!-- Empty placeholder for APIMatic widget -->
+            <!-- Empty placeholder - will use portal container instead -->
         </div>
         
         <!-- Specification Docs Content (placeholder to keep structure consistent) -->
@@ -259,6 +259,15 @@
                 specLink.classList.add('active');
             }
 
+            function showAPIKeysPortal() {
+                hideAllContent();
+                portalContainer.style.display = 'block';
+                apimaticIframe.src = 'v/6.0.2/index.html#/http/quickstart/self-service-get-an-access-token';
+                // Mark api-keys as active in the nav
+                const apiKeysLink = document.querySelector('[data-target="api-keys"]');
+                apiKeysLink.classList.add('active');
+            }
+
             // Click on main "Specification Docs" opens latest version by default
             specDocsDropdown.querySelector('[data-target="spec-docs"]').addEventListener('click', function(e) {
                 e.preventDefault();
@@ -287,9 +296,10 @@
                     // Spec docs handled above
                     if (this.getAttribute('data-target') === 'spec-docs') return;
                     
-                    // Handle external link for API Keys
+                    // Handle API Keys with portal
                     if (this.getAttribute('data-target') === 'api-keys') {
-                        // Don't prevent default for external links
+                        e.preventDefault();
+                        showAPIKeysPortal();
                         return;
                     }
                     
@@ -311,4 +321,5 @@
     <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);});});</script><script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough );});});</script>
 </body>
 </html> 
+
 
