@@ -167,9 +167,9 @@
             <h1>What is FDX</h1>
             <p>FDX provides standard for safe, secure, interoperable data exchange between Data Providers and Third Parties, specifically through the following specifications:</p>
             <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
-                <li><a href="https://colemanrox11.github.io/fdx-api-dx-demo-beta/v/6.0.2/index.html#/http/api-reference/api-endpoints/user-consent/get-consent-grant" style="color: #009687; text-decoration: none;">API Data Format</a></li>
-                <li><a href="https://colemanrox11.github.io/fdx-api-dx-demo-beta/v/6.0.2/index.html#/http/api-reference/api-endpoints/user-consent/get-consent-grant " style="color: #009687; text-decoration: none;">User Experience</a></li>
-                <li><a href="https://colemanrox11.github.io/fdx-api-dx-demo-beta/v/6.0.2/index.html#/http/api-reference/api-endpoints/user-consent/get-consent-grant " style="color: #009687; text-decoration: none;">API Security</a></li>
+                <li><strong>API Data Format</strong> <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-data-format" style="color: #009687; text-decoration: none;">API Data Format</a></li>
+                <li><strong>User Experience</strong> <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="user-experience" style="color: #009687; text-decoration: none;">User Experience</a></li>
+                <li><strong>API Security</strong> <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-security" style="color: #009687; text-decoration: none;">API Security</a></li>
             </ul>
 
             <h1 style="margin-top: 3rem;">How can FDX be used?</h1>
@@ -310,6 +310,26 @@
                 });
             });
 
+            // Handle FDX documentation links in the "What is FDX" section
+            document.querySelectorAll('.fdx-doc-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const version = this.getAttribute('data-version');
+                    const section = this.getAttribute('data-section');
+                    
+                    // Show the portal container
+                    hideAllContent();
+                    portalContainer.style.display = 'block';
+                    
+                    // Set the iframe source to the specific documentation section
+                    apimaticIframe.src = `v/${version}/index.html#/http/api-reference/api-endpoints/user-consent/get-consent-grant`;
+                    
+                    // Mark the "Specification Docs" as active in navigation
+                    const specLink = specDocsDropdown.querySelector('[data-target="spec-docs"]');
+                    specLink.classList.add('active');
+                });
+            });
+
             // Default to Home
             showContent('home');
         });
@@ -321,5 +341,3 @@
     <script defer src='./static/guided-walkthrough-scripts/transaction-history.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/transaction-history', 'Get Transaction History', PersonalFinancialManagementAccountAggregationWalkthrough);});});</script><script defer src='./static/guided-walkthrough-scripts/notification-guide.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:api-recipes/notification-guide', 'Event Notification', NotificationWalkthrough );});});</script>
 </body>
 </html> 
-
-
