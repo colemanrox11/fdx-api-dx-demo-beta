@@ -105,6 +105,21 @@
             flex: 1; max-width: 400px; text-align: center; border: 2px solid transparent; transition: all 0.3s ease;
         }
         .card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        
+        /* Grid card hover effects for Get Started page */
+        .grid-card {
+            background: white; 
+            border: 1px solid #e0e0e0; 
+            border-radius: 8px; 
+            padding: 1.5rem; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+            transition: all 0.3s ease; 
+            cursor: pointer;
+        }
+        .grid-card:hover { 
+            transform: translateY(-4px); 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15); 
+        }
         .card h2 { color: #1a2233; margin-bottom: 1rem; font-size: 1.5rem; }
         .card p { color: #666; margin-bottom: 2rem; line-height: 1.6; }
 
@@ -164,7 +179,7 @@
         
         <!-- Get Started Content -->
         <div id="get-started" class="content-area">
-            <h1>What is FDX</h1>
+            <h1>What is FDX?</h1>
             <p>FDX provides standard for safe, secure, interoperable data exchange between Data Providers and Third Parties, specifically through the following specifications:</p>
             <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
                 <li><strong>API Data Format</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="api-data-format" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
@@ -173,23 +188,63 @@
             </ul>
 
             <h1 style="margin-top: 3rem;">How can FDX be used?</h1>
-            <p>With FDX, you can access or provide access to standardized financial data via our API format for common use cases:</p>
-            <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
-                <li><strong>Account Information</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="account-information" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-                <li><strong>Transactions</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="account-transactions" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-                <li><strong>Customer Profiles</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="personal-information" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-                <li><strong>Statements</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="account-statements" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-                <li><strong>Tax</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="tax-forms" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-                <li><strong>Payroll</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="payroll-information" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-                <li><strong>Money Movement</strong> => <a href="#" class="fdx-doc-link" data-version="6.0.2" data-section="money-movement" style="color: #009687; text-decoration: none;">hyperlink directly here</a></li>
-            </ul>
-            <p style="margin-top: 1rem; color: #666; line-height: 1.6;">FDX supports both Data Recipients and Data Providers, using secure tokenized authentication flows and a shared data model defined by working groups focused on API, Security, and UX standards.</p>
-
-            <h1 style="margin-top: 3rem;">Why become an FDX Member?</h1>
-            <div style="margin: 1rem 0;">
-                <p style="margin-bottom: 1rem; color: #666; line-height: 1.6;"><strong>For Legal / Policy teams:</strong> Stay up to date on major updates from the hill utilizing our exclusive member partnership network.</p>
-                <p style="margin-bottom: 1rem; color: #666; line-height: 1.6;"><strong>For dev teams:</strong> Get access to build or test against the FDX reference implementation and an interactive library of all FDX documentation.</p>
-                <p style="margin-bottom: 1rem; color: #666; line-height: 1.6;"><strong>For business teams:</strong> Identify the use cases / products that your organization seeks to monetize.</p>
+            <p>FDX provides data formatting standards for several different types of data. These are organized by product, each with their own set of API endpoints, API models / structures, and accompanying reference documentation in the user experience and security guidelines.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem;">
+                <div class="grid-card" onclick="showContent('consent-detail')" style="cursor: pointer;">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Consent</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;">Defines the process for which a user grants, revokes, and authorizes consent to access their data.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Core</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Core account and transaction data access capabilities.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Customer</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Customer profile and personal information management.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Event Notifications</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Real-time event notification and webhook capabilities.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Fraud</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Fraud detection and prevention data exchange.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Money Movement</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Payment and money transfer functionality.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Tax</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Tax form and document data access.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Payroll</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Payroll and employment data exchange.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Recipient Registration</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Third-party application registration process.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Registry</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Central registry and directory services.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <h3 style="color: #1a2233; margin-bottom: 0.5rem; font-size: 1.1rem;">Meta</h3>
+                    <p style="color: #666; font-size: 0.9rem; line-height: 1.4;"><strong style="color: #009687;">Coming Soon</strong> - Metadata and configuration management.</p>
+                </div>
             </div>
         </div>
         
@@ -227,6 +282,40 @@
             <h1>Community</h1>
             <p>Connect with other developers and get support for your FDX integration.</p>
             <p>This section will contain community resources, forums, and developer support information.</p>
+        </div>
+        
+        <!-- Consent Detail Content -->
+        <div id="consent-detail" class="content-area">
+            <button onclick="showContent('get-started')" class="btn btn-secondary" style="margin-bottom: 1rem;">← Back to Get Started</button>
+            <h1>FDX API Products: Consent</h1>
+            
+            <h2 style="color: #1a2233; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.3rem;">Overview</h2>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 2rem;">The FDX Consent API defines how Data Providers and Third Parties manage consumer-permissioned data-sharing agreements in a standardized way. Within the FDX Standards, it establishes a consistent lifecycle model for consent - covering creation, retrieval, update, and revocation - while recording key metadata such as who granted consent, what data clusters or endpoints are included, the duration of the agreement, and its current status.</p>
+            
+            <h2 style="color: #1a2233; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.3rem;">Documents that interact with Consent API endpoints</h2>
+            <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
+                <li><strong>UX Guidelines</strong>
+                    <ul style="margin: 0.5rem 0; padding-left: 2rem;">
+                        <li>Flow of Financial Data</li>
+                        <li>Consent Components</li>
+                    </ul>
+                </li>
+                <li><strong>Data Minimization Guidelines</strong></li>
+                <li><strong>FDX API Security Model v4.1</strong>
+                    <ul style="margin: 0.5rem 0; padding-left: 2rem;">
+                        <li>FDX API Security Profile</li>
+                        <li>API Specific Requirements and Considerations => Specific Requirements for APIs</li>
+                        <li>FDX API Security Profile => FDX Recipient Registration Guidelines</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h2 style="color: #1a2233; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.3rem;">API Endpoints & Structures</h2>
+            <ul style="margin: 1rem 0; padding-left: 2rem; color: #666; line-height: 1.6;">
+                <li><code style="background: #f8f9fa; padding: 0.2rem 0.4rem; border-radius: 3px; font-family: 'Courier New', monospace;">/consents/{consentid} - GET</code></li>
+                <li><code style="background: #f8f9fa; padding: 0.2rem 0.4rem; border-radius: 3px; font-family: 'Courier New', monospace;">/consents/{consentid}/revocation - GET</code></li>
+                <li><code style="background: #f8f9fa; padding: 0.2rem 0.4rem; border-radius: 3px; font-family: 'Courier New', monospace;">/consents/{consentid}/revocation - PUT</code></li>
+            </ul>
         </div>
         
         <!-- APIMatic Portal Widget (used only for API Keys if needed) -->
@@ -268,6 +357,9 @@
                     if (targetArea) targetArea.classList.remove('active');
                 }
             }
+            
+            // Make showContent globally accessible
+            window.showContent = showContent;
 
             function showAPIMaticPortal(version) {
                 hideAllContent();
